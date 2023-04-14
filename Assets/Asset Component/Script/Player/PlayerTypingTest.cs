@@ -9,18 +9,21 @@ public class PlayerTypingTest : MonoBehaviour
     [SerializeField] public string anyWords;
     private string codeText;
     public TextMeshProUGUI anyWordsText;
+
     [SerializeField] private int letterIndex;
+    public bool isCorrect;
     
     protected List<KeyCode> m_activeInputs = new List<KeyCode>();
 
     private void Start()
     {
         letterIndex = 0;
+        isCorrect = false;
+        anyWordsText.text = anyWords;
     }
 
     private void Update()
     {
-        anyWordsText.text = anyWords;
         CheckAnyKey();
         TypingMechanics();
     }
@@ -49,19 +52,31 @@ public class PlayerTypingTest : MonoBehaviour
     private void TypingMechanics()
     {
         var letter = anyWords.ToCharArray();
-
-        while (letterIndex < letter.Length) 
+        
+        if (letterIndex < letter.Length)
         {
             if (codeText == letter[letterIndex].ToString())
             {
-                // anyWordsText.color = Color.green;
-                // anyWordsText.text = anyWords.Remove(letterIndex, 1).
-                //     Insert(letterIndex, "<color=green>" + letter[letterIndex] + "</color>");
-                // anyWordsText.color += letter.Color.green;
                 Debug.Log("Letter Correct");
+                anyWordsText.text = anyWords.Remove(letterIndex, 1).
+                    Insert(letterIndex, "<color=blue>" + letter[letterIndex] + "</color>");
                 letterIndex++;
-                Debug.Log(letter.Length);
             }
         }
+        else
+        {
+            isCorrect = true;
+        }
+
+        // if (codeText == letter[letterIndex].ToString())
+        // {
+        //     // anyWordsText.color = Color.green;
+        //     // anyWordsText.text = anyWords.Remove(letterIndex, 1).
+        //     //     Insert(letterIndex, "<color=green>" + letter[letterIndex] + "</color>");
+        //     // anyWordsText.color += letter.Color.green;
+        //     Debug.Log("Letter Correct");
+        //     letterIndex++;
+        //     Debug.Log(letter.Length);
+        // }
     }
 }
