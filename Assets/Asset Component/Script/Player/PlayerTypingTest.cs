@@ -55,11 +55,11 @@ public class PlayerTypingTest : MonoBehaviour
         
         if (letterIndex < letter.Length)
         {
-            if (codeText == letter[letterIndex].ToString())
+            if (letter[letterIndex].ToString() == codeText)
             {
                 Debug.Log("Letter Correct");
-                anyWordsText.text = anyWords.Remove(letterIndex, 1).
-                    Insert(letterIndex, "<color=blue>" + letter[letterIndex] + "</color>");
+                anyWordsText.text = anyWordsText.text.Replace(letter[letterIndex].ToString(), 
+                    "<color=#0045FF>" + letter[letterIndex].ToString() + "</color>");
                 letterIndex++;
             }
         }
@@ -67,16 +67,5 @@ public class PlayerTypingTest : MonoBehaviour
         {
             isCorrect = true;
         }
-
-        // if (codeText == letter[letterIndex].ToString())
-        // {
-        //     // anyWordsText.color = Color.green;
-        //     // anyWordsText.text = anyWords.Remove(letterIndex, 1).
-        //     //     Insert(letterIndex, "<color=green>" + letter[letterIndex] + "</color>");
-        //     // anyWordsText.color += letter.Color.green;
-        //     Debug.Log("Letter Correct");
-        //     letterIndex++;
-        //     Debug.Log(letter.Length);
-        // }
     }
 }

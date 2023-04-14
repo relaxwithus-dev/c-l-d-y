@@ -159,7 +159,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 468.1404, y: 102.6411}
+  m_SizeDelta: {x: 821.0055, y: 102.6411}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &72325899
 MonoBehaviour:
@@ -190,8 +190,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -556,7 +556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10109eebc3365e744a30795ffe96c2fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anyWords: AMOGUS
+  anyWords: SATTRIO
   anyWordsText: {fileID: 72325899}
   letterIndex: 0
   isCorrect: 0
