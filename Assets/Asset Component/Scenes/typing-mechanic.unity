@@ -150,7 +150,7 @@ RectTransform:
   m_GameObject: {fileID: 72325897}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.69064, y: 0.69064, z: 0.69064}
+  m_LocalScale: {x: 0.5868575, y: 0.5868575, z: 0.5868575}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 778001122}
@@ -181,7 +181,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 'New Text
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -208,8 +210,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 80
+  m_fontSizeBase: 80
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -644,6 +646,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1036207261}
   - component: {fileID: 1036207262}
+  - component: {fileID: 1036207263}
   m_Layer: 0
   m_Name: Typing
   m_TagString: Untagged
@@ -678,10 +681,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10109eebc3365e744a30795ffe96c2fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anyWords: SATTRIO
+  anyWords: KADITA
   anyWordsText: {fileID: 72325899}
   letterIndex: 0
   isCorrect: 0
+--- !u!114 &1036207263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036207260}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c1c15dd938fdcd4bbfb954eaccd1f5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1701295684
 GameObject:
   m_ObjectHideFlags: 0

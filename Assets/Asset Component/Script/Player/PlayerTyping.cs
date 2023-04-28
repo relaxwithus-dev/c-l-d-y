@@ -1,12 +1,12 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class PlayerTypingTest : MonoBehaviour
+public class PlayerTyping : MonoBehaviour
 {
-    [SerializeField] public string anyWords;
+     [SerializeField] public string anyWords;
     private string codeText;
     public TextMeshProUGUI anyWordsText;
     
@@ -25,7 +25,7 @@ public class PlayerTypingTest : MonoBehaviour
     private void Update()
     {
         CheckAnyKey();
-        TypingMechanics();
+        OldTypingMechanics();
     }
 
     private void CheckAnyKey()
@@ -49,7 +49,7 @@ public class PlayerTypingTest : MonoBehaviour
         }
     }
 
-    private void TypingMechanics()
+    private void OldTypingMechanics()
     {
         var letter = anyWords.ToCharArray();
 
@@ -88,22 +88,4 @@ public class PlayerTypingTest : MonoBehaviour
             isCorrect = true;
         }
     }
-
-    private void AnyEnter()
-    {
-        var letter = anyWords.ToCharArray();
-        for (int i = 0; i < letter.Length; i++)
-        {
-            if (letter[1] == letter[i])
-            {
-                Debug.Log("Letter ke-1 dan ke-" + i + " sama!");
-                Debug.Log($"Letternya adalah {letter[i]}");
-            }
-            else
-            {
-                Debug.Log("Letter aman");
-            }
-        }
-    }
-    
 }
