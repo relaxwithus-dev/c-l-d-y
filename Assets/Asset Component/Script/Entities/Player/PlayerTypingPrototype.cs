@@ -1,10 +1,12 @@
 using System;
 using System.Collections;
+using System.Text.RegularExpressions;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using Unity.VisualScripting;
 
-public class PlayerTypingTest : MonoBehaviour
+public class PlayerTypingPrototype : MonoBehaviour
 {
     [SerializeField] public string anyWords;
     private string codeText;
@@ -14,18 +16,25 @@ public class PlayerTypingTest : MonoBehaviour
     public bool isCorrect;
     
     protected List<KeyCode> activeInputs = new List<KeyCode>();
+    private Color[] characterColors;
 
     private void Start()
     {
         letterIndex = 0;
         isCorrect = false;
         anyWordsText.text = anyWords;
+        
+        characterColors = new Color[anyWordsText.text.Length];
+        for (int i = 0; i < characterColors.Length; i++)
+        {
+            characterColors[i] = Color.white;
+        }
     }
 
     private void Update()
     {
         CheckAnyKey();
-        TypingMechanics();
+        TypingMechanic();
     }
 
     private void CheckAnyKey()
@@ -48,7 +57,8 @@ public class PlayerTypingTest : MonoBehaviour
             }
         }
     }
-
+    
+    // Typing Mechanics With Same Character Detector
     private void TypingMechanics()
     {
         var letter = anyWords.ToCharArray();
@@ -74,10 +84,6 @@ public class PlayerTypingTest : MonoBehaviour
                         Debug.Log("Letter aman");
                     }
                 }
-                
-                // anyWordsText.text = anyWordsText.text.Replace(letter[letterIndex].ToString(), 
-                //     "<color=#0045FF>" + letter[letterIndex] + "</color>");
-                
                 // anyWordsText.text = anyWordsText.text.Replace(letter[letterIndex].ToString(), 
                 //     "<color=#0045FF>" + letter[letterIndex] + "</color>");
                 letterIndex++;
@@ -88,7 +94,28 @@ public class PlayerTypingTest : MonoBehaviour
             isCorrect = true;
         }
     }
+    
+    // Typing Mechanics Without Same Character Detector
+    private void TypingMechanic()
+    {
+        var letter = anyWords.ToCharArray();
 
+        if (letterIndex < letter.Length)
+        {
+            if (letter[letterIndex].ToString() == codeText)
+            {
+                characterColors[letterIndex] = Color.blue;
+                letterIndex++;
+            }
+            UpdateTextColors();
+        }
+        else
+        {
+            isCorrect = true;
+            Debug.Log("Correct Lur");
+        }
+    }
+    
     private void AnyEnter()
     {
         var letter = anyWords.ToCharArray();
@@ -104,6 +131,27 @@ public class PlayerTypingTest : MonoBehaviour
                 Debug.Log("Letter aman");
             }
         }
+    }
+    
+    void UpdateTextColors()
+    {
+        for (int i = 0; i < anyWordsText.text.Length; i++)
+        {
+            TMP_CharacterInfo charInfo = anyWordsText.textInfo.characterInfo[i];
+            int materialIndex = charInfo.materialReferenceIndex;
+            int vertexIndex = charInfo.vertexIndex;
+
+            if (charInfo.isVisible)
+            {
+                anyWordsText.textInfo.meshInfo[materialIndex].colors32[vertexIndex + 0] = characterColors[i];
+                anyWordsText.textInfo.meshInfo[materialIndex].colors32[vertexIndex + 1] = characterColors[i];
+                anyWordsText.textInfo.meshInfo[materialIndex].colors32[vertexIndex + 2] = characterColors[i];
+                anyWordsText.textInfo.meshInfo[materialIndex].colors32[vertexIndex + 3] = characterColors[i];
+            }
+        }
+
+        // Memperbarui tampilan teks
+        anyWordsText.UpdateVertexData(TMP_VertexDataUpdateFlags.Colors32);
     }
     
 }
