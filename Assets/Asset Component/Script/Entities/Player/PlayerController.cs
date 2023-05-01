@@ -7,12 +7,12 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Scriptable Object Component")]
     [SerializeField] private PlayerData playerDataSO;
-    
+
     [Header("Movement Component")]
     [SerializeField] private Vector2 playerDirection;
     [SerializeField] private bool isRight;
 
-    [Header("Reference")] 
+    [Header("Reference")]
     private Rigidbody2D myRb;
     private Animator myAnim;
 
@@ -23,25 +23,28 @@ public class PlayerController : MonoBehaviour
         myRb = GetComponent<Rigidbody2D>();
         myAnim = GetComponent<Animator>();
     }
-    
+
     private void Start()
     {
         gameObject.name = playerDataSO.playerName;
     }
-    
+
     // Physics Update
     private void FixedUpdate()
     {
-        PlayerMovement();
-        PlayerDirection();
-        // PlayerAnimation();
-       
+        if (!DialogueManager.Instance.dialogueIsPlaying)
+        {
+            PlayerMovement();
+            PlayerDirection();
+            // PlayerAnimation();
+        }
+
     }
-    
+
     // Logic Update
     private void Update()
     {
-        
+
     }
 
     #endregion
@@ -56,7 +59,7 @@ public class PlayerController : MonoBehaviour
 
         playerDirection = new Vector2(moveX, moveY);
         playerDirection.Normalize();
-        myRb.velocity =  playerDirection * playerDataSO.playerSpeed;
+        myRb.velocity = playerDirection * playerDataSO.playerSpeed;
     }
 
     private void PlayerDirection()
@@ -71,7 +74,7 @@ public class PlayerController : MonoBehaviour
             PlayerFlip();
         }
     }
-    
+
     private void PlayerAnimation()
     {
         if (playerDirection != Vector2.zero)
