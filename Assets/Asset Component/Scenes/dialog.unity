@@ -1648,6 +1648,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueBubble: {fileID: 1012983410}
   dialogueText: {fileID: 1088574845}
+  typingSpeed: 0.03
 --- !u!4 &1510048871
 Transform:
   m_ObjectHideFlags: 0
