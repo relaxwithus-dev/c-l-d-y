@@ -7,11 +7,12 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Scriptable Object Component")]
     [SerializeField] private PlayerData playerDataSO;
-    
+
     [Header("Movement Component")]
     [SerializeField] private Vector2 playerDirection;
+    [SerializeField] private bool isRight;
 
-    [Header("Reference")] 
+    [Header("Reference")]
     private Rigidbody2D myRb;
     private Animator myAnim;
 
@@ -22,23 +23,28 @@ public class PlayerController : MonoBehaviour
         myRb = GetComponent<Rigidbody2D>();
         myAnim = GetComponent<Animator>();
     }
-    
-    void Start()
+
+    private void Start()
     {
         gameObject.name = playerDataSO.playerName;
     }
-    
+
     // Physics Update
     private void FixedUpdate()
     {
-        PlayerMovement();
-       
+        if (!DialogueManager.Instance.dialogueIsPlaying)
+        {
+            PlayerMovement();
+            PlayerDirection();
+            // PlayerAnimation();
+        }
+
     }
-    
-    // Update is called once per frame
-    void Update()
+
+    // Logic Update
+    private void Update()
     {
-        PlayerAnimation();
+
     }
 
     #endregion
@@ -53,9 +59,22 @@ public class PlayerController : MonoBehaviour
 
         playerDirection = new Vector2(moveX, moveY);
         playerDirection.Normalize();
-        myRb.velocity =  playerDirection * playerDataSO.playerSpeed;
+        myRb.velocity = playerDirection * playerDataSO.playerSpeed;
     }
-    
+
+    private void PlayerDirection()
+    {
+        if (playerDirection.x > 0 && !isRight)
+        {
+            PlayerFlip();
+        }
+
+        if (playerDirection.x < 0 && isRight)
+        {
+            PlayerFlip();
+        }
+    }
+
     private void PlayerAnimation()
     {
         if (playerDirection != Vector2.zero)
@@ -68,6 +87,12 @@ public class PlayerController : MonoBehaviour
         {
             myAnim.SetBool("isWalk", false);
         }
+    }
+
+    private void PlayerFlip()
+    {
+        isRight = !isRight;
+        transform.Rotate(0.0f, 180.0f, 0.0f);
     }
 
     #endregion
