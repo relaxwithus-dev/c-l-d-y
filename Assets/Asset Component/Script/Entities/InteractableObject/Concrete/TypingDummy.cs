@@ -6,7 +6,7 @@ public class TypingDummy : TypingObjectBase
     [Header("Got Item Reference")]
     public GameObject referencePanel;
 
-    #region Event Subscribe
+    #region MonoBehaviour Callbacks
     
     private void OnEnable()
     {
@@ -17,10 +17,6 @@ public class TypingDummy : TypingObjectBase
     {
         OnInteractDone -= InteractDone;
     }
-    
-    #endregion
-
-    #region MonoBehaviour Callbacks
     
     private void Start()
     {

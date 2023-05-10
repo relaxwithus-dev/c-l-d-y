@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b1e1e0e-3bb7-4ae6-b739-c99975a792c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Base.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Base/TypingObjectBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Base/TypingObjectBase.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Concrete.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Concrete/TypingDummy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Concrete/TypingDummy.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Player/PlayerTypingPrototype.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.c-l-d-y/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.c-l-d-y/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Scenes/Demo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Scenes/Demo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Scenes/typing-mechanic.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Scenes/typing-mechanic.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Player.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Player.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Player/ColorOnType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Player/ColorOnType.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Player/PlayerController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Player/PlayerController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Player/PlayerTyping.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Player/PlayerTyping.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Player/PlayerTyping.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Player/PlayerTypingTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Player/PlayerTyping.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Player/PlayerTypingTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Player/PlayerTypingPrototype.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Concrete/TypingDummy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Concrete/TypingDummy.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +88,7 @@
       <workItem from="1682650295631" duration="4752000" />
       <workItem from="1682661136460" duration="7031000" />
       <workItem from="1682677565695" duration="3043000" />
-      <workItem from="1682736339492" duration="6721000" />
+      <workItem from="1682736339492" duration="7404000" />
     </task>
     <servers />
   </component>
