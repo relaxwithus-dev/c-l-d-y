@@ -3,6 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+#region Require Component
+
+[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(BoxCollider2D))]
+[RequireComponent(typeof(Animator))]
+
+#endregion
 public class PlayerController : MonoBehaviour
 {
     [Header("Scriptable Object Component")]
