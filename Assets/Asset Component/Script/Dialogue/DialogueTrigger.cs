@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class DialogueTrigger : MonoBehaviour
 {
+    [Header("Visual")]
+    [SerializeField] private GameObject visualQue;
+
     [Header("InkJSON")]
     [SerializeField] private TextAsset inkJSON;
 
@@ -13,6 +16,7 @@ public class DialogueTrigger : MonoBehaviour
     void Start()
     {
         playerInRanged = false;
+        visualQue.SetActive(false);
     }
 
     // Update is called once per frame
@@ -20,10 +24,16 @@ public class DialogueTrigger : MonoBehaviour
     {
         if (playerInRanged && !DialogueManager.Instance.dialogueIsPlaying)
         {
+            visualQue.SetActive(true);
+
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 DialogueManager.Instance.EnterDialogueMode(inkJSON);
             }
+        }
+        else
+        {
+            visualQue.SetActive(false);
         }
     }
 
