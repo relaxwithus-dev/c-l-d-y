@@ -9,11 +9,11 @@ public class PlayerTyping : MonoBehaviour
     protected List<KeyCode> activeInputs = new List<KeyCode>();
     public string CodeText { get; private set; }
 
-    [Header("Reference")] private TypingDummy typingObjectBase;
+    [Header("Reference")] private TypingGotItem typingObjectBase;
 
     private void Awake()
     {
-        typingObjectBase = GameObject.Find("Object").GetComponent<TypingDummy>();
+        typingObjectBase = GameObject.Find("Object").GetComponent<TypingGotItem>();
     }
 
     private void Update()

@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="9b1e1e0e-3bb7-4ae6-b739-c99975a792c2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.c-l-d-y/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.c-l-d-y/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Concrete/TypingDummy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Concrete/TypingDummy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Player/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Misc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Misc/SingletonMonobehaviour.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Misc/SingletonMonobehaviour.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +93,7 @@
       <workItem from="1682661136460" duration="7031000" />
       <workItem from="1682677565695" duration="3043000" />
       <workItem from="1682736339492" duration="7404000" />
+      <workItem from="1683827906716" duration="353000" />
     </task>
     <servers />
   </component>

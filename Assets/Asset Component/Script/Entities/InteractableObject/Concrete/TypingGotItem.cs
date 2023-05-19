@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-public class TypingDummy : TypingObjectBase
+public class TypingGotItem : TypingObjectBase
 {
     [Header("Got Item Reference")]
     public GameObject referencePanel;

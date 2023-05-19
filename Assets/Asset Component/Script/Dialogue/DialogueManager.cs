@@ -7,6 +7,12 @@ using System;
 
 public class DialogueManager : SingletonMonobehaviour<DialogueManager>
 {
+    [Header("GameObject")]
+    [SerializeField] private GameObject player;
+    private GameObject playerBubbleTransform;
+    [SerializeField] private GameObject npc01;
+    private GameObject npc01BubbleTransform;
+
     [Header("DialogueUI")]
     [SerializeField] private GameObject dialogueBubble;
     [SerializeField] private TextMeshProUGUI dialogueText;
@@ -21,19 +27,23 @@ public class DialogueManager : SingletonMonobehaviour<DialogueManager>
     private Story currentStory;
     public bool dialogueIsPlaying { get; private set; }
 
+    private const string SPEAKER_TAG = "speaker";
+
     protected override void Awake()
     {
         base.Awake();
     }
 
-    // Start is called before the first frame update
     void Start()
     {
+        // get gameobject in child of the object with idex 0
+        playerBubbleTransform = player.transform.GetChild(0).gameObject;
+        npc01BubbleTransform = npc01.transform.GetChild(0).gameObject;
+
         dialogueIsPlaying = false;
         dialogueBubble.SetActive(false);
     }
 
-    // Update is called once per frame
     void Update()
     {
         // return when dialogue isn't playing
@@ -67,8 +77,20 @@ public class DialogueManager : SingletonMonobehaviour<DialogueManager>
                 // stop the last line
                 StopCoroutine(displayLineCoroutine);
             }
-            // continue
-            displayLineCoroutine = StartCoroutine(DisplayLine(currentStory.Continue()));
+
+            string nextLine = currentStory.Continue();
+            // handle case where the last line is an external function
+            if (nextLine.Equals("") && !currentStory.canContinue)
+            {
+                StartCoroutine(ExitDialogueMode());
+            }
+            // otherwise, handle the normal case for continuing the story
+            else
+            {
+                // handle tags
+                HandleTags(currentStory.currentTags);
+                displayLineCoroutine = StartCoroutine(DisplayLine(nextLine));
+            }
         }
         else
         {
@@ -124,4 +146,42 @@ public class DialogueManager : SingletonMonobehaviour<DialogueManager>
         // user can continue after all of the character has been displayed
         canContinueToNextLine = true;
     }
+
+    private void HandleTags(List<string> currentTags)
+    {
+        // loop through each tag and handle it accordingly
+        foreach (string tag in currentTags)
+        {
+            // parse the tag
+            string[] splitTag = tag.Split(':');
+            if (splitTag.Length != 2)
+            {
+                Debug.LogError("Tag could not be appropriately parsed: " + tag);
+            }
+            string tagKey = splitTag[0].Trim();
+            string tagValue = splitTag[1].Trim();
+
+            // handle the tag
+            switch (tagKey)
+            {
+                case SPEAKER_TAG:
+                    if (tagValue == "Player")
+                    {
+                        dialogueBubble.transform.position = new Vector2(playerBubbleTransform.transform.position.x, playerBubbleTransform.transform.position.y);
+                    }
+                    else if (tagValue == "Npc01")
+                    {
+                        dialogueBubble.transform.position = new Vector2(npc01BubbleTransform.transform.position.x, npc01BubbleTransform.transform.position.y);
+                    }
+                    break;
+
+                // case: another tags (portrat, layout, etc)
+                // break;
+                default:
+                    Debug.LogWarning("Tag came in but is not currently being handled: " + tag);
+                    break;
+            }
+        }
+    }
+
 }
