@@ -1,13 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9b1e1e0e-3bb7-4ae6-b739-c99975a792c2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Item.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Item/AsepriteAnimation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Player/ANM-01-01 Idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Player/ANM-01-02 Walk.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Controller/Item.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Controller/Item/AsepriteController.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Entities.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Entities/FinnSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Entities/FinnSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/aseprite-icon32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/aseprite-icon32.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/audacity-icon32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/audacity-icon32.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/blender-icon32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/blender-icon32.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/flstudio-icon32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/flstudio-icon32.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/gamemaker-icon32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/gamemaker-icon32.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/mozilla-icon32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/mozilla-icon32.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/obs-icon32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/obs-icon32.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/photoshop-icon32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/photoshop-icon32.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/premierepro-icon32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/premierepro-icon32.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/unity-icon32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/unity-icon32.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/unreal-icon32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/unreal-icon32.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/vlc-icon32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/vlc-icon32.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Font.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Font/Stacked pixel SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Font/Stacked pixel SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Font/Stacked pixel.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Font/Stacked pixel.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Concrete/TypingGetItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/ItemController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/ItemController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Manager/GameManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Manager/GameManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserSettings/Search.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.c-l-d-y/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.c-l-d-y/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Player/ANM-01-01 IdleLeft.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Player/ANM-01-01 IdleLeft.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Player/ANM-01-01 Idle.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Player/ANM-01-02 IdleRight.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Player/ANM-01-02 IdleRight.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Controller/Item/AsepriteController.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Player/ANM-02-01 WalkLeft.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Player/ANM-02-01 WalkLeft.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Player/ANM-01-02 Walk.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Player/ANM-02-02 WalkRight.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Player/ANM-02-02 WalkRight.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Item/AsepriteAnimation.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Controller/PlayerController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Controller/PlayerController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Dummy.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Dummy.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Dummy/DOC Character.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Entities/DOC Character.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Dummy/DOC Character.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Entities/DOC Character.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Dummy/Ground 1 (339 x 183)t.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Dummy/Ground 1 (339 x 183)t.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Dummy/Ground 1 (339 x 183)t.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Dummy/Ground 1 (339 x 183)t.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Dummy/Ground 3 (474 x 201)t.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Dummy/Ground 3 (474 x 201)t.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Dummy/Ground 3 (474 x 201)t.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Dummy/Ground 3 (474 x 201)t.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Dummy/Pohon (37 x 51).png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Dummy/Pohon (37 x 51).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Dummy/Pohon (37 x 51).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Dummy/Pohon (37 x 51).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Dummy/Rumput 1 (35 x 30).png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Dummy/Rumput 1 (35 x 30).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Dummy/Rumput 1 (35 x 30).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Dummy/Rumput 1 (35 x 30).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/man 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Entities/man 1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/man 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Entities/man 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/man 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Entities/man 2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/man 2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Entities/man 2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Cloudy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Cloudy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Scenes/ground-one.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Scenes/ground-one.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Base/TypingObjectBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Base/TypingObjectBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Concrete/TypingGotItem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Concrete/TypingGotItem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Concrete/TypingGetItem.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Misc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Misc/SingletonMonobehaviour.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Misc/SingletonMonobehaviour.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Player/PlayerTyping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Player/PlayerTyping.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Search.settings" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Search.settings" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +96,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3ea01e77be99618395f448b16bd7cc2bd4248bd9e5d8474964b2d97f39c5d74/System.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/ItemDummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Singleton/SingletonMonobehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Concrete/TypingGetItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/ItemController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Asset Component/Script/Manager/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -25,26 +110,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Discover.Launch.Via.Unity": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\LENOVO\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\LENOVO\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\LENOVO\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\LENOVO\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\LENOVO\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\LENOVO\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files (x86)\2021.3.18f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;C:\Users\LENOVO\Documents\Game Development\Project\c-l-d-y&quot; -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\LENOVO\Documents\Game Development\Project\c-l-d-y" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files (x86)\2021.3.18f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;C:\Users\LENOVO\Documents\Game Development\Project\c-l-d-y&quot; -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\LENOVO\Documents\Game Development\Project\c-l-d-y" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -93,7 +190,14 @@
       <workItem from="1682661136460" duration="7031000" />
       <workItem from="1682677565695" duration="3043000" />
       <workItem from="1682736339492" duration="7404000" />
-      <workItem from="1683827906716" duration="353000" />
+      <workItem from="1683827906716" duration="1257000" />
+      <workItem from="1683829719738" duration="100000" />
+      <workItem from="1683829933021" duration="509000" />
+      <workItem from="1683830763594" duration="438000" />
+      <workItem from="1683862398010" duration="2401000" />
+      <workItem from="1683870079430" duration="6037000" />
+      <workItem from="1683913199623" duration="662000" />
+      <workItem from="1684549564370" duration="1663000" />
     </task>
     <servers />
   </component>

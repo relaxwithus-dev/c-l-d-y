@@ -8,19 +8,14 @@ public class TypingObjectBase : MonoBehaviour
 {
     [Header("Base Typing Component")]
     public string anyWords;
-    [SerializeField] private int letterIndex;
-    [field: SerializeField] public bool isCorrect { get; private set; }
+    private int letterIndex;
+    [HideInInspector] public bool isTypingArea;
+    public bool IsCorrect { get; private set; }
     public event Action OnInteractDone;
 
     [Header("Base Typing UI Component")]
     public TextMeshProUGUI anyWordsText;
     private Color[] characterColors;
-    
-    [Header("Base Typing Area")]
-    [SerializeField] private Vector2 typingAreaRadius;
-    public LayerMask typingAreaLayer;
-    private Collider2D[] colliderArea;
-    public bool isTypingArea { get; private set; }
 
     [Header("Script Reference")]
     private PlayerTyping playerTyping;
@@ -32,16 +27,14 @@ public class TypingObjectBase : MonoBehaviour
 
     public virtual void InteractStart()
     {
-        // Some logic
+        // Default Logic
         letterIndex = 0;
-        isCorrect = false;
+        IsCorrect = false;
         anyWordsText.text = anyWords;
         
-        characterColors = new Color[anyWordsText.text.Length];
-        for (int i = 0; i < characterColors.Length; i++)
-        {
-            characterColors[i] = Color.black;
-        }
+        StartTextColors();
+
+        // Some Logic
     }
 
     public virtual void InteractDone()
@@ -54,7 +47,12 @@ public class TypingObjectBase : MonoBehaviour
     public void TypingMechanic()
     {
         var letter = anyWords.ToCharArray();
-
+        
+        if (IsCorrect)
+        {
+            return;
+        }
+        
         if (letterIndex < letter.Length)
         {
             if (letter[letterIndex].ToString() == playerTyping.CodeText)
@@ -66,9 +64,17 @@ public class TypingObjectBase : MonoBehaviour
         }
         else
         {
-            isCorrect = true;
+            IsCorrect = true;
             OnInteractDone?.Invoke();
-            Debug.Log("Correct Lur");
+        }
+    }
+
+    private void StartTextColors()
+    {
+        characterColors = new Color[anyWordsText.text.Length];
+        for (int i = 0; i < characterColors.Length; i++)
+        {
+            characterColors[i] = Color.black;
         }
     }
     
@@ -91,21 +97,5 @@ public class TypingObjectBase : MonoBehaviour
 
         // Memperbarui tampilan teks
         anyWordsText.UpdateVertexData(TMP_VertexDataUpdateFlags.Colors32);
-    }
-
-    public void ColliderChecker()
-    {
-        colliderArea = Physics2D.OverlapBoxAll(transform.position, typingAreaRadius, typingAreaLayer);
-    
-        foreach (var player in colliderArea)
-        {
-            isTypingArea = true;
-        }
-    }
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireCube(transform.position, typingAreaRadius);
     }
 }

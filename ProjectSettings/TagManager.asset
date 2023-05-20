@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Object
   - NPC
+  - Interactable
   layers:
   - Default
   - TransparentFX
@@ -49,7 +50,7 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Item
+  - name: Object
     uniqueID: 2686030849
     locked: 0
   - name: Character

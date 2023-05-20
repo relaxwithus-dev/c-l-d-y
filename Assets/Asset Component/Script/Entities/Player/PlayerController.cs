@@ -39,12 +39,16 @@ public class PlayerController : MonoBehaviour
     // Physics Update
     private void FixedUpdate()
     {
-        if (!DialogueManager.Instance.dialogueIsPlaying)
-        {
-            PlayerMovement();
-            PlayerDirection();
-            // PlayerAnimation();
-        }
+        // if (!DialogueManager.Instance.dialogueIsPlaying)
+        // {
+        //     PlayerMovement();
+        //     PlayerDirection();
+        //     PlayerAnimation();
+        // }
+        
+        PlayerMovement();
+        PlayerDirection();
+        PlayerAnimation();
 
     }
 
@@ -86,8 +90,6 @@ public class PlayerController : MonoBehaviour
     {
         if (playerDirection != Vector2.zero)
         {
-            myAnim.SetFloat("Horizontal", playerDirection.x);
-            myAnim.SetFloat("Vertical", playerDirection.y);
             myAnim.SetBool("isWalk", true);
         }
         else
@@ -99,7 +101,9 @@ public class PlayerController : MonoBehaviour
     private void PlayerFlip()
     {
         isRight = !isRight;
-        transform.Rotate(0.0f, 180.0f, 0.0f);
+        // transform.localScale = Vector2.right * -1;
+        // transform.Rotate(0.0f, 180.0f, 0.0f);
+        transform.localScale = new Vector2(transform.localScale.x * -1, transform.localScale.y);
     }
 
     #endregion
