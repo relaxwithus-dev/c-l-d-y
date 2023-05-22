@@ -8,8 +8,10 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(BoxCollider2D))]
 [RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(PlayerTyping))]
 
 #endregion
+
 public class PlayerController : MonoBehaviour
 {
     [Header("Scriptable Object Component")]
@@ -101,8 +103,6 @@ public class PlayerController : MonoBehaviour
     private void PlayerFlip()
     {
         isRight = !isRight;
-        // transform.localScale = Vector2.right * -1;
-        // transform.Rotate(0.0f, 180.0f, 0.0f);
         transform.localScale = new Vector2(transform.localScale.x * -1, transform.localScale.y);
     }
 

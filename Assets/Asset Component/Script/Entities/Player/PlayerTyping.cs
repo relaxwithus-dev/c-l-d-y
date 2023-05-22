@@ -9,20 +9,9 @@ public class PlayerTyping : MonoBehaviour
     protected List<KeyCode> activeInputs = new List<KeyCode>();
     public string CodeText { get; private set; }
 
-    [Header("Reference")] 
-    private TypingGetItem typingObjectBase;
-
-    private void Awake()
-    {
-        typingObjectBase = GameObject.FindGameObjectWithTag("Interactable").GetComponent<TypingGetItem>();
-    }
-
     private void Update()
     {
-        if (typingObjectBase.isTypingArea)
-        {
-            CheckAnyKey();
-        }
+        CheckAnyKey();
     }
 
     private void CheckAnyKey()
