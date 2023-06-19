@@ -5,9 +5,9 @@ using UnityEngine.Serialization;
 
 public class TypingThirdItem : TypingBase
 {
-     #region Second Item Component
+    #region Third Item Component
     
-    [Header("Second Item Component")]
+    [Header("Third Item Component")]
     [SerializeField] private TypingFirstItem firstItem;
     [SerializeField] private TypingSecondItem secondItem;
     public bool GotItem {get; private set;}
@@ -95,25 +95,5 @@ public class TypingThirdItem : TypingBase
         notifyObject.SetActive(false);
     }
     
-    #endregion
-
-    #region Collider2D Callbacks
-
-    private void OnTriggerStay2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            isTypingArea = true;
-        }
-    }
-    
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            isTypingArea = false;
-        }
-    }
-
     #endregion
 }

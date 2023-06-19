@@ -5,202 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b1e1e0e-3bb7-4ae6-b739-c99975a792c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Entities.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Entities/ANM-02-01 Idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Entities/ANM-02-01 Idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Entities/ANM-02-02 Walk.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Entities/ANM-02-02 Walk.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Entities/ANM-03-01 Idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Entities/ANM-03-01 Idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Entities/ANM-04-01 Idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Entities/ANM-04-01 Idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Entities/ANM-05-01 Idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Entities/ANM-05-01 Idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Environment.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Environment/ANM-01-01 Waterfall.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Environment/ANM-01-01 Waterfall.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Environment/ANM-02-01 Portal.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Environment/ANM-02-01 Portal.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Controller/Camera.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Controller/Entities.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Controller/Entities/DOCController.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Controller/Entities/DOCController.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Controller/Entities/MP3Controller.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Controller/Entities/MP3Controller.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Controller/Entities/PDFController.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Controller/Entities/PDFController.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Controller/Entities/PNGController.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Controller/Entities/PNGController.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Controller/Environment.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Controller/Environment/PortalController.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Controller/Environment/PortalController.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Controller/Environment/WaterfallController.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Controller/Environment/WaterfallController.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Awan (276 x 100).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Awan (276 x 100).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Awan (324 x 63).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Awan (324 x 63).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Awan (357 x 73).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Awan (357 x 73).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Batu Ginjal (58 x 40).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Batu Ginjal (58 x 40).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Batu Ginjal 1.2 (65 x 41).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Batu Ginjal 1.2 (65 x 41).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Batu Ginjal 2 (58 x 40).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Batu Ginjal 2 (58 x 40).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Batu Ginjal 2.2 (65 x 41).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Batu Ginjal 2.2 (65 x 41).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Bunga (42 x 42).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Bunga (42 x 42).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/DIalog-Box (64 x 16).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/DIalog-Box (64 x 16).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/DIalog-Box (80 x 28) (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/DIalog-Box (80 x 28) (1).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/DIalog-Box (80 x 28).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/DIalog-Box (80 x 28).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/DIalog-Box (80 x 35).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/DIalog-Box (80 x 35).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Jembatan (60 x 14).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Jembatan (60 x 14).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Kardus (71 x 52).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Kardus (71 x 52).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Kerikil Dark (9 x 8).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Kerikil Dark (9 x 8).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Kerikil Light (9 x 8).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Kerikil Light (9 x 8).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Keyboard (128 x 64).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Keyboard (128 x 64).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Keyboard (64 x 32).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Keyboard (64 x 32).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Nada 1 (24 x224).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Nada 1 (24 x224).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Nada 2 (24 x224).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Nada 2 (24 x224).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Pohon Sakura 1 (96 x 108).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Pohon Sakura 1 (96 x 108).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Pohon Sakura 2 (154 x 130).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Pohon Sakura 2 (154 x 130).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Portal Sprite (94 x 88).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Portal Sprite (94 x 88).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Rumput 1 (35 x 30).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Rumput 1 (35 x 30).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Rumput 2 (40 x 14).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Rumput 2 (40 x 14).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Small Stone Dark (18 x 19).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Small Stone Dark (18 x 19).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Small Stone Light (18 x 19).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Small Stone Light (18 x 19).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Sungai (64 x 101).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Sungai (64 x 101).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Sungai .gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Sungai .gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Sungai Terjun (120 x 202).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Sungai Terjun (120 x 202).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Surat (37 x 26).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Surat (37 x 26).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Ground 3 (948 x 402).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Ground 3 (948 x 402).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Ground 4 (858 x 292).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Ground 4 (858 x 292).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Ground Respawn (678 x 368).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Ground Respawn (678 x 368).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Ground Wahana (750 x 488).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Ground Wahana (750 x 488).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Old.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Old/Ground 4 (429 x 146)t.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Old/Ground 4 (429 x 146)t.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Entities.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Entities/DOC Character Sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Entities/DOC Character Sprite.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Entities/MP3 Character Singing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Entities/MP3 Character Singing.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Entities/PDF Character Singing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Entities/PDF Character Singing.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Entities/PNG Character Sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Entities/PNG Character Sprite.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Data/Entities/PNG.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Data/Entities/PNG.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Entities.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Entities/DOC.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Entities/DOC.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Entities/MP3.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Entities/MP3.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Entities/PDF.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Entities/PDF.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Entities/PNG.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Entities/PNG.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Environment.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Environment/Portal.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Environment/Portal.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Environment/Waterfall.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Environment/Waterfall.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Item.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Camera.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Camera/GroundCameraController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Camera/GroundCameraController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Observers.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Observers/GroundNarratorSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Observers/GroundNarratorSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingBase.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingFirstItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingFirstItem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingSecondItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingSecondItem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingThirdItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingThirdItem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/IObserver.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/IObserver.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Redundant.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Enum.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Enum/ItemAction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Enum/ItemAction.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.c-l-d-y/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.c-l-d-y/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Item/AsepriteAnimation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Item/AsepriteAnimation.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Player/ANM-01-01 Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Entities/ANM-01-01 Idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Player/ANM-01-01 Idle.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Entities/ANM-01-01 Idle.anim.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Player/ANM-01-02 Walk.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Entities/ANM-01-02 Walk.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Player/ANM-01-02 Walk.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Entities/ANM-01-02 Walk.anim.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Controller/PlayerController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Controller/Entities/PlayerController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Controller/PlayerController.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Controller/Entities/PlayerController.controller.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Dummy/Ground 1 (339 x 183)t.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Old/Ground 1 (339 x 183)t.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Dummy/Ground 1 (339 x 183)t.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Old/Ground 1 (339 x 183)t.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Dummy/Ground 3 (474 x 201)t.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Old/Ground 3 (474 x 201)t.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Dummy/Ground 3 (474 x 201)t.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Old/Ground 3 (474 x 201)t.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/audacity-icon32.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/audacity-icon32.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/blender-icon32.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/blender-icon32.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/flstudio-icon32.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/flstudio-icon32.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/gamemaker-icon32.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/gamemaker-icon32.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/mozilla-icon32.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/mozilla-icon32.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/obs-icon32.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/obs-icon32.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/photoshop-icon32.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/photoshop-icon32.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/premierepro-icon32.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/premierepro-icon32.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/unity-icon32.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/unity-icon32.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/unreal-icon32.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/unreal-icon32.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/vlc-icon32.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Sprite/Dummy/Item/vlc-icon32.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Tilemap.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Data/Player.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Data/Entities.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Data/Player/Cloudy.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Data/Entities/Cloudy.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Data/Player/Cloudy.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Data/Entities/Cloudy.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Font/Stacked pixel SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Font/Stacked pixel SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Aseprite.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Item/Aseprite.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Aseprite.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Item/Aseprite.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Cloudy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Entities/Cloudy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Cloudy.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Entities/Cloudy.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Scenes/ground-one.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Scenes/ground-one.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Base.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Redundant/Base.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Base/TypingObjectBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Redundant/Base/TypingObjectBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Base/TypingObjectBase.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Redundant/Base/TypingObjectBase.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Concrete.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Redundant/Concrete.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Concrete/TypingGetItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Redundant/Concrete/TypingGetItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Concrete/TypingGetItem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Redundant/Concrete/TypingGetItem.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Player/PlayerTyping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Player/PlayerTyping.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingFirstItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingFirstItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingSecondItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingSecondItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingThirdItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingThirdItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
@@ -328,6 +141,10 @@
       <workItem from="1684729401301" duration="1652000" />
       <workItem from="1684739275842" duration="6804000" />
       <workItem from="1684746230533" duration="30000" />
+      <workItem from="1684861254423" duration="486000" />
+      <workItem from="1685156622766" duration="45000" />
+      <workItem from="1686246049749" duration="703000" />
+      <workItem from="1687144991058" duration="4760000" />
     </task>
     <servers />
   </component>

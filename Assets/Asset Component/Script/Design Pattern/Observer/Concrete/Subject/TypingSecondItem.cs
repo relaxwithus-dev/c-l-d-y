@@ -96,24 +96,4 @@ public class TypingSecondItem : TypingBase
     }
     
     #endregion
-
-    #region Collider2D Callbacks
-
-    private void OnTriggerStay2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            isTypingArea = true;
-        }
-    }
-    
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            isTypingArea = false;
-        }
-    }
-
-    #endregion
 }

@@ -226,23 +226,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 68740000
-      m_LastClickedID: 29800
-      m_ExpandedIDs: 766fffffa2b9ffff26cfffffb4d1ffffe8dfffff08fbffffc86d00000a6e000068740000a4740000
+      m_SelectedIDs: 74750000
+      m_LastClickedID: 30068
+      m_ExpandedIDs: ccf6ffff9af7ffff08fbffffc4740000447500007075000084750000ae750000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Clock
+        m_OriginalName: Clock
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 30084
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -571,9 +571,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 27.814823, y: 1.3425697, z: -0.038017176}
+    m_Target: {x: 1.2179184, y: 5.9880075, z: -0.046146035}
     speed: 2
-    m_Value: {x: 27.814823, y: 1.3425697, z: -0.038017176}
+    m_Value: {x: 1.2179184, y: 5.9880075, z: -0.046146035}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -624,9 +624,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 7.520264
+    m_Target: 8.181886
     speed: 2
-    m_Value: 7.520264
+    m_Value: 8.181886
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -750,22 +750,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Asset Component/Property/Prefabs/Item
+    - Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Asset Component/Property/Prefabs/Item
+  - Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\LENOVO\Documents\Game Development\Project\c-l-d-y
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 366.2}
-    m_SelectedIDs: 62710000
-    m_LastClickedID: 29026
-    m_ExpandedIDs: 00000000546f0000566f0000586f00005a6f000000ca9a3b
+    scrollPos: {x: 0, y: 95}
+    m_SelectedIDs: 22760000
+    m_LastClickedID: 30242
+    m_ExpandedIDs: 000000006e7200007072000072720000747200009c720000e2750000e6750000f6750000167600001c76000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -793,7 +793,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000546f0000566f0000586f00005a6f000000ca9a3b
+    m_ExpandedIDs: 000000006e720000707200007272000074720000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -818,8 +818,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 3a6e0000c6710000a8710000
-    m_LastClickedInstanceID: 28218
+    m_SelectedInstanceIDs: 84750000
+    m_LastClickedInstanceID: 30084
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000b26d0000c2ac0000
     m_RenameOverlay:
@@ -837,7 +837,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 7}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1141,7 +1141,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 29790
+  m_LastSelectedObjectID: -18020
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1240,7 +1240,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 8.799988
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
