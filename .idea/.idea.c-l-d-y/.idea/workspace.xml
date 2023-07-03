@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b1e1e0e-3bb7-4ae6-b739-c99975a792c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/Dummy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/Dummy.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingClockOld.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingClockOld.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.c-l-d-y/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.c-l-d-y/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Font/Stacked pixel SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Font/Stacked pixel SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Entities/Cloudy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Entities/Cloudy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Item/Aseprite.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Item/Aseprite.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Scenes/typing-clock-mechanic.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Scenes/typing-clock-mechanic.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Camera/GroundCameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Camera/GroundCameraController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Observers/GroundNarratorSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Observers/GroundNarratorSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingClock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingClock.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingClock.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingClock.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingSecondItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingSecondItem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/ItemController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/ItemController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Player/PlayerTyping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Player/PlayerTyping.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Enum/ItemAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Enum/ItemAction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +144,7 @@
       <workItem from="1687926134690" duration="5834000" />
       <workItem from="1687936872146" duration="21000" />
       <workItem from="1688355145004" duration="8186000" />
-      <workItem from="1688374212791" duration="101000" />
+      <workItem from="1688374212791" duration="219000" />
     </task>
     <servers />
   </component>

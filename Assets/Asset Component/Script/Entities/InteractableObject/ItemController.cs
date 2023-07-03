@@ -9,6 +9,7 @@ public class ItemController : MonoBehaviour
     [Header("Item Controller Component")]
     [SerializeField] private string itemName;
     [SerializeField] private float moveTime;
+    [SerializeField] private float moveUpdateTime;
     // [SerializeField] private GameObject itemDestroyEffect;
     private Transform playerTransform;
 
@@ -30,6 +31,7 @@ public class ItemController : MonoBehaviour
     private IEnumerator ItemMove()
     {
         yield return new WaitForSeconds(1f);
+        moveTime += moveUpdateTime * Time.deltaTime;
         transform.position = Vector2.MoveTowards(transform.position, playerTransform.position,
             moveTime * Time.deltaTime);
 
