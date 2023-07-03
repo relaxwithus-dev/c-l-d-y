@@ -2,9 +2,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
-public class PlayerTyping : MonoBehaviour
+public class Dummy : MonoBehaviour
 {
+    [Header("Clock Component")] 
+    [SerializeField] private string clockWords;
+    private string clockWordsTemporary;
+    [SerializeField] private TextMeshProUGUI clockWordsUI;
+
+    [SerializeField] private int letterIndex;
+    public bool IsCorrect { get; private set; }
+    [SerializeField] private bool isClockArea;
+    
+    private string[] keyCodeNumber;
+    [SerializeField] private string codeTextTemp;
+    
     [Header("Input Character Component")]
     protected List<KeyCode> activeInputs = new List<KeyCode>();
     public string CodeText { get; private set; }
@@ -33,6 +46,4 @@ public class PlayerTyping : MonoBehaviour
             }
         }
     }
-    
-    public void SetCodeTextNull() => CodeText = null;
 }

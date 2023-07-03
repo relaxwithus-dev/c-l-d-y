@@ -3,5 +3,6 @@
     ItemOne,
     ItemTwo,
     ItemThree,
+    Clock,
     None
 }

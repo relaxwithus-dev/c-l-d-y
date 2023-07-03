@@ -83,15 +83,14 @@ public class TypingSecondItem : TypingBase
     private IEnumerator SetDefaultTyping()
     {
         notifyObject.SetActive(true);
-        yield return new WaitForSeconds(1.5f);
         
+        yield return new WaitForSeconds(1.5f);
         notifyObject.GetComponent<Animator>().SetTrigger("Close");
         IsCorrect = false;
         letterIndex = 0;
         StartTextColors();
         
         yield return new WaitForSeconds(0.2f);
-        
         notifyObject.SetActive(false);
     }
     

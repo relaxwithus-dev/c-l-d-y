@@ -99,7 +99,7 @@ public class GroundCameraController : MonoBehaviour
 
     #endregion
 
-    #region Another Method's
+    #region Tsukuyomi Method's
 
     private void ResizeCameraGround()
     {

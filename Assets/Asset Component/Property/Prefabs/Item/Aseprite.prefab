@@ -100,6 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Aseprite
   moveTime: 5
+  moveUpdateTime: 2
 --- !u!95 &1985411994610473098
 Animator:
   serializedVersion: 5

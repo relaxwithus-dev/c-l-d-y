@@ -51,6 +51,9 @@ public class GroundNarratorSystem : MonoBehaviour, IObserver
                 Instantiate(itemObjects[2], spawnPosition3, Quaternion.identity);
                 break;
             
+            case ItemAction.Clock:
+                // Some Logic
+                break;
             default:
                 Debug.Log("Item Not Found");
                 break;

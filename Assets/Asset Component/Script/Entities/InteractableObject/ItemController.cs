@@ -15,6 +15,10 @@ public class ItemController : MonoBehaviour
     private void Awake()
     {
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
+    }
+
+    private void Start()
+    {
         gameObject.name = itemName;
     }
 
@@ -26,9 +30,9 @@ public class ItemController : MonoBehaviour
     private IEnumerator ItemMove()
     {
         yield return new WaitForSeconds(1f);
-        transform.position = Vector2.MoveTowards(transform.position, playerTransform.position, 
+        transform.position = Vector2.MoveTowards(transform.position, playerTransform.position,
             moveTime * Time.deltaTime);
-        
+
         if (Vector2.Distance(transform.position, playerTransform.position) < 0.5f)
         {
             // Effect pas object mlebu nde player

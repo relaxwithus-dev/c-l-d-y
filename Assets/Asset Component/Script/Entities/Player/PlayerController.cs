@@ -7,7 +7,6 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(BoxCollider2D))]
-[RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(PlayerTyping))]
 
 #endregion
@@ -30,7 +29,7 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         myRb = GetComponent<Rigidbody2D>();
-        myAnim = GetComponent<Animator>();
+        myAnim = GetComponentInChildren<Animator>();
     }
 
     private void Start()
@@ -41,23 +40,20 @@ public class PlayerController : MonoBehaviour
     // Physics Update
     private void FixedUpdate()
     {
-        // if (!DialogueManager.Instance.dialogueIsPlaying)
+        // if (DialogueManager.Instance.dialogueIsPlaying)
         // {
-        //     PlayerMovement();
-        //     PlayerDirection();
-        //     PlayerAnimation();
+        //     return;
         // }
         
         PlayerMovement();
-        PlayerDirection();
-        PlayerAnimation();
-
+        
     }
 
     // Logic Update
     private void Update()
     {
-
+        PlayerDirection();
+        PlayerAnimation();
     }
 
     #endregion
