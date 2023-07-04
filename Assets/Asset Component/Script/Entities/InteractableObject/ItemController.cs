@@ -31,9 +31,9 @@ public class ItemController : MonoBehaviour
     private IEnumerator ItemMove()
     {
         yield return new WaitForSeconds(1f);
-        moveTime += moveUpdateTime * Time.deltaTime;
         transform.position = Vector2.MoveTowards(transform.position, playerTransform.position,
             moveTime * Time.deltaTime);
+        moveTime += moveUpdateTime * Time.deltaTime;
 
         if (Vector2.Distance(transform.position, playerTransform.position) < 0.5f)
         {

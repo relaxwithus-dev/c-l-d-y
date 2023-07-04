@@ -10,11 +10,7 @@ public class TypingSecondItem : TypingBase
     [Header("Second Item Component")]
     [SerializeField] private TypingFirstItem firstItem;
     public bool GotItem {get; private set;}
-
-    [Space] 
-    [SerializeField] private string notifyText;
-    [SerializeField] private GameObject notifyObject;
-    [SerializeField] private TextMeshProUGUI notifyTextUI;
+    public NotifyComponent notifyComponent;
     
     #endregion
 
@@ -24,7 +20,7 @@ public class TypingSecondItem : TypingBase
     {
         InteractStart();
         GotItem = false;
-        notifyTextUI.text = notifyText;
+        notifyComponent.notifyTextUI.text = notifyComponent.notifyText;
     }
 
     private void Update()
@@ -82,16 +78,16 @@ public class TypingSecondItem : TypingBase
 
     private IEnumerator SetDefaultTyping()
     {
-        notifyObject.SetActive(true);
+        notifyComponent.notifyObject.SetActive(true);
         
         yield return new WaitForSeconds(1.5f);
-        notifyObject.GetComponent<Animator>().SetTrigger("Close");
+        notifyComponent.notifyObject.GetComponent<Animator>().SetTrigger("Close");
         IsCorrect = false;
         letterIndex = 0;
         StartTextColors();
         
         yield return new WaitForSeconds(0.2f);
-        notifyObject.SetActive(false);
+        notifyComponent.notifyObject.SetActive(false);
     }
     
     #endregion

@@ -1,22 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Serialization;
-using TMPro;
 
 public class TypingClock : TypingBase
 {
     #region Variable
 
     [Header("Clock Component")]
+    // Ref typing masi belum dipake
+    // [SerializeField] private TypingFirstItem firstItem;
+    // [SerializeField] private TypingSecondItem secondItem;
+    
     [SerializeField] private char[] clockWordLetters;
     private char[] keyClockLetters;
     private string[] keyCodeNumber;
     private string keyCodeInput;
     
-    [SerializeField] private string notifyText;
-    [SerializeField] private GameObject notifyObject;
-    [SerializeField] private TextMeshProUGUI notifyTextUI;
+    public bool GotItem {get; private set;}
+    public NotifyComponent notifyComponent;
     
     #endregion
 
@@ -90,6 +93,7 @@ public class TypingClock : TypingBase
                 {
                     IsCorrect = true;
                     Debug.Log("Betul Joss");
+                    ItemFlow();
                 }
                 else
                 {
@@ -112,6 +116,36 @@ public class TypingClock : TypingBase
         }
 
         return false;
+    }
+    
+    private void ItemFlow()
+    {
+        // if (firstItem.GotItem & secondItem.GotItem)
+        // {
+        //     NotifyObservers(ItemAction.ItemThree);
+        //     GotItem = true;
+        // }
+        // else
+        // {
+        //     StartCoroutine(SetDefaultTyping());
+        // }
+        
+        Debug.Log("Check item ya bang");
+        GotItem = true;
+    }
+
+    private IEnumerator SetDefaultTyping()
+    {
+        notifyComponent.notifyObject.SetActive(true);
+        yield return new WaitForSeconds(1.5f);
+        
+        notifyComponent.notifyObject.GetComponent<Animator>().SetTrigger("Close");
+        IsCorrect = false;
+        letterIndex = 0;
+        StartTextColors();
+        yield return new WaitForSeconds(0.2f);
+        
+        notifyComponent.notifyObject.SetActive(false);
     }
 
     #endregion

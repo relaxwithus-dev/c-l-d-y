@@ -5,40 +5,41 @@ using TMPro;
 public class TypingBase : ObserverSubject
 {
     #region Main Component
-
     [Header("Typing Component")]
     public string anyWords;
     public int letterIndex { get; set; }
     public bool isTypingArea { get; set; }
     [field: SerializeField] public bool IsCorrect { get; set; }
-
     #endregion
 
     #region UI Component
-
     [Header("UI Component")]
     public TextMeshProUGUI anyWordsText;
     public Color[] characterColors { get; private set; }
-
     #endregion
 
     #region Reference
-
     public PlayerTyping playerTyping {get; private set;}
-
     #endregion
 
+    #region Some Struct
+    [Serializable]
+    public struct NotifyComponent
+    {
+        public string notifyText;
+        public GameObject notifyObject;
+        public TextMeshProUGUI notifyTextUI;
+    }
+    #endregion
+    
     #region MonoBehaviour Callbacks
-
     private void Awake()
     {
         playerTyping = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerTyping>();
     }
-
     #endregion
 
     #region Tsukuyomi Callbacks
-
     public void InteractStart()
     {
         letterIndex = 0;
@@ -77,11 +78,9 @@ public class TypingBase : ObserverSubject
         // Memperbarui tampilan teks
         anyWordsText.UpdateVertexData(TMP_VertexDataUpdateFlags.Colors32);
     }
-
     #endregion
 
     #region Collider2D Callbacks
-
     private void OnTriggerStay2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
@@ -97,6 +96,5 @@ public class TypingBase : ObserverSubject
             isTypingArea = false;
         }
     }
-
     #endregion
 }

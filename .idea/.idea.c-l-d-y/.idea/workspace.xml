@@ -6,7 +6,31 @@
   <component name="ChangeListManager">
     <list default="true" id="9b1e1e0e-3bb7-4ae6-b739-c99975a792c2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.c-l-d-y/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.c-l-d-y/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Item/AsepriteAnimation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Item/AsepriteAnimation.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Item/BlenderAnimation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Item/BlenderAnimation.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Item/UnityAnimation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Item/UnityAnimation.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Material.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Item.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Item/Aseprite.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Item/Aseprite.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Item/Blender.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Item/Blender.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Item/Unity.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Item/Unity.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Scenes/typing-clock-mechanic.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Scenes/typing-clock-mechanic.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/Dummy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/Dummy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingClock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingClock.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingClockOld.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingClockOld.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingSecondItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingSecondItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingThirdItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingThirdItem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/ItemController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/ItemController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Player/PlayerTypingPrototype.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Player/PlayerTypingPrototype.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +169,8 @@
       <workItem from="1687936872146" duration="21000" />
       <workItem from="1688355145004" duration="8186000" />
       <workItem from="1688374212791" duration="219000" />
+      <workItem from="1688401528123" duration="600000" />
+      <workItem from="1688448304173" duration="3461000" />
     </task>
     <servers />
   </component>
