@@ -3,21 +3,24 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-public class TypingSecondItem : TypingBase
+public class TypingThirdItem : TypingBase
 {
-    #region Second Item Component
+    #region Third Item Component
     
-    [Header("Second Item Component")]
+    [Header("Third Item Component")]
     [SerializeField] private TypingFirstItem firstItem;
+    [SerializeField] private TypingSecondItem secondItem;
     public bool GotItem {get; private set;}
     public NotifyComponent notifyComponent;
-    
+
     #endregion
+
 
     #region MonoBehaviour Callbacks
 
     private void Start()
     {
+        WordsUpperChecker();
         InteractStart();
         GotItem = false;
         notifyComponent.notifyTextUI.text = notifyComponent.notifyText;
@@ -65,9 +68,9 @@ public class TypingSecondItem : TypingBase
 
     private void ItemFlow()
     {
-        if (firstItem.GotItem)
+        if (firstItem.GotItem & secondItem.GotItem)
         {
-            NotifyObservers(ItemAction.ItemTwo);
+            NotifyObservers(ItemAction.ItemThree);
             GotItem = true;
         }
         else
@@ -79,14 +82,14 @@ public class TypingSecondItem : TypingBase
     private IEnumerator SetDefaultTyping()
     {
         notifyComponent.notifyObject.SetActive(true);
-        
         yield return new WaitForSeconds(1.5f);
+        
         notifyComponent.notifyObject.GetComponent<Animator>().SetTrigger("Close");
         IsCorrect = false;
         letterIndex = 0;
         StartTextColors();
-        
         yield return new WaitForSeconds(0.2f);
+        
         notifyComponent.notifyObject.SetActive(false);
     }
     

@@ -6,30 +6,34 @@
   <component name="ChangeListManager">
     <list default="true" id="9b1e1e0e-3bb7-4ae6-b739-c99975a792c2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.c-l-d-y/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.c-l-d-y/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Item/AsepriteAnimation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Item/AsepriteAnimation.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Item/BlenderAnimation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Item/BlenderAnimation.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Item/UnityAnimation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Item/UnityAnimation.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Material.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Item.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Item/Aseprite.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Item/Aseprite.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Item/Blender.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Item/Blender.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Item/Unity.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Item/Unity.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Font/Stacked pixel SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Font/Stacked pixel SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Scenes/typing-clock-mechanic.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Scenes/typing-clock-mechanic.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/Dummy.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/Dummy.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingClock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingClock.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingClockOld.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingClockOld.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingSecondItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingSecondItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingThirdItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingThirdItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/ItemController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/ItemController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Player/PlayerTypingPrototype.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Player/PlayerTypingPrototype.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/Redundant.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/Redundant/Dummy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/Redundant/Dummy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/Redundant/TypingClockOld.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/Redundant/TypingClockOld.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingClock.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingClock.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingFirstItem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingFirstItem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingSecondItem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingSecondItem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingThirdItem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingThirdItem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/ItemController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/ItemController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Redundant.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Redundant/Base.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Redundant/Base/TypingObjectBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Redundant/Base/TypingObjectBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Redundant/Concrete.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Redundant/Concrete/TypingGetItem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Redundant/Concrete/TypingGetItem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +45,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3ea01e77be99618395f448b16bd7cc2bd4248bd9e5d8474964b2d97f39c5d74/System.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Asset Component/Script/Camera/GroundCameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Singleton/SingletonMonobehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/ItemController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Object/Redundant/Concrete/TypingGetItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Asset Component/Script/Manager/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.8.9/Runtime/Behaviours/CinemachinePixelPerfect.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -170,7 +174,11 @@
       <workItem from="1688355145004" duration="8186000" />
       <workItem from="1688374212791" duration="219000" />
       <workItem from="1688401528123" duration="600000" />
-      <workItem from="1688448304173" duration="3461000" />
+      <workItem from="1688448304173" duration="3818000" />
+      <workItem from="1688530157033" duration="6776000" />
+      <workItem from="1688609732808" duration="662000" />
+      <workItem from="1688882852180" duration="2329000" />
+      <workItem from="1688885570689" duration="188000" />
     </task>
     <servers />
   </component>

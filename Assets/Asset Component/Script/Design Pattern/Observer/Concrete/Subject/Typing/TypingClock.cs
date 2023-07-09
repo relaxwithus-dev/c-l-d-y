@@ -1,19 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections;
+using System.Text;
 using UnityEngine;
 using UnityEngine.Serialization;
+
+// Bisa direfactor lagi se iki
+// Soon lor
 
 public class TypingClock : TypingBase
 {
     #region Variable
 
     [Header("Clock Component")]
+    [SerializeField] private string temporaryWords;
     // Ref typing masi belum dipake
     // [SerializeField] private TypingFirstItem firstItem;
     // [SerializeField] private TypingSecondItem secondItem;
     
-    [SerializeField] private char[] clockWordLetters;
+    private char[] clockWordLetters;
     private char[] keyClockLetters;
     private string[] keyCodeNumber;
     private string keyCodeInput;
@@ -27,10 +32,13 @@ public class TypingClock : TypingBase
 
     private void Start()
     {
-        IsCorrect = false;
-        letterIndex = 0;
-
-        clockWordLetters = keyClockLetters = anyWords.ToCharArray();
+        InteractStart();
+        GotItem = false;
+        anyWordsTextUI.text = temporaryWords;
+        notifyComponent.notifyTextUI.text = notifyComponent.notifyText;
+        
+        clockWordLetters = temporaryWords.ToCharArray();
+        keyClockLetters = anyWords.ToCharArray();
         keyCodeNumber = new string[10]
         {
             "Alpha0", "Alpha1", 
@@ -39,7 +47,6 @@ public class TypingClock : TypingBase
             "Alpha6", "Alpha7", 
             "Alpha8", "Alpha9"
         };
-        
     }
 
     private void Update()
@@ -69,40 +76,39 @@ public class TypingClock : TypingBase
         {
             if (clockWordLetters[letterIndex] == ':')
             {
-                //Skip Letter
-                Debug.Log("Letter Skip");
+                // Skip the colon
                 letterIndex++;
             }
             
             if (NumericsInputChecker(keyCodeInput))
             {
                 var keyCodeChar = keyCodeInput.ToCharArray()[keyCodeInput.Length - 1];
-
                 clockWordLetters[letterIndex] = keyCodeChar;
-                anyWordsText.text = anyWordsText.text.Replace(clockWordLetters[letterIndex].ToString(), 
-                    keyCodeChar.ToString());
+                
+                var stringBuilder = new StringBuilder(anyWordsTextUI.text);
+                stringBuilder[letterIndex] = keyCodeChar;
+                anyWordsTextUI.text = stringBuilder.ToString();
+
+                characterColors[letterIndex] = Color.blue;
                 letterIndex++;
                 playerTyping.SetCodeTextNull();
             }
+           
         }
         else
         {
-            for (int i = 0; i < clockWordLetters.Length; i++)
+            if (LetterCorrectChecker())
             {
-                if (clockWordLetters[i] == keyClockLetters[i])
-                {
-                    IsCorrect = true;
-                    Debug.Log("Betul Joss");
-                    ItemFlow();
-                }
-                else
-                {
-                    IsCorrect = false;
-                    Debug.Log("Apalah");
-                    letterIndex = 0;
-                }
+                IsCorrect = true;
+                ItemFlow();
+            }
+            else
+            {
+                StartCoroutine(SetWrongText());
             }
         }
+        
+        UpdateTextColors();
     }
 
     private bool NumericsInputChecker(string keycode)
@@ -117,6 +123,19 @@ public class TypingClock : TypingBase
 
         return false;
     }
+
+    private bool LetterCorrectChecker()
+    {
+        for (int i = 0; i < clockWordLetters.Length; i++)
+        {
+            if (clockWordLetters[i] != keyClockLetters[i])
+            {
+                return false;
+            }
+        }
+        
+        return true;
+    }
     
     private void ItemFlow()
     {
@@ -130,11 +149,11 @@ public class TypingClock : TypingBase
         //     StartCoroutine(SetDefaultTyping());
         // }
         
-        Debug.Log("Check item ya bang");
+        Debug.Log("DONN TEMPE GORENG NIKMATT");
         GotItem = true;
     }
 
-    private IEnumerator SetDefaultTyping()
+    private IEnumerator SetDefaultText()
     {
         notifyComponent.notifyObject.SetActive(true);
         yield return new WaitForSeconds(1.5f);
@@ -142,11 +161,22 @@ public class TypingClock : TypingBase
         notifyComponent.notifyObject.GetComponent<Animator>().SetTrigger("Close");
         IsCorrect = false;
         letterIndex = 0;
-        StartTextColors();
+        // Some logic for reset UI number typing
+        
         yield return new WaitForSeconds(0.2f);
         
         notifyComponent.notifyObject.SetActive(false);
     }
 
+    private IEnumerator SetWrongText()
+    {
+        WrongTextColors();
+        letterIndex = 0;
+        yield return new WaitForSeconds(1f);
+        
+        StartTextColors();
+        Debug.Log("Reset");
+    }
+    
     #endregion
 }

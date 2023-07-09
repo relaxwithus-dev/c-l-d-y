@@ -14,6 +14,7 @@ public class TypingFirstItem : TypingBase
 
     private void Start()
     {
+        WordsUpperChecker();
         InteractStart();
         GotItem = false;
     }
