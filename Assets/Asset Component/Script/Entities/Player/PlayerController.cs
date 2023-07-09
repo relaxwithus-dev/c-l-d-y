@@ -7,9 +7,10 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(BoxCollider2D))]
-[RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(PlayerTyping))]
 
 #endregion
+
 public class PlayerController : MonoBehaviour
 {
     [Header("Scriptable Object Component")]
@@ -28,7 +29,7 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         myRb = GetComponent<Rigidbody2D>();
-        myAnim = GetComponent<Animator>();
+        myAnim = GetComponentInChildren<Animator>();
     }
 
     private void Start()
@@ -39,19 +40,20 @@ public class PlayerController : MonoBehaviour
     // Physics Update
     private void FixedUpdate()
     {
-        if (!DialogueManager.Instance.dialogueIsPlaying)
-        {
-            PlayerMovement();
-            PlayerDirection();
-            // PlayerAnimation();
-        }
-
+        // if (DialogueManager.Instance.dialogueIsPlaying)
+        // {
+        //     return;
+        // }
+        
+        PlayerMovement();
+        
     }
 
     // Logic Update
     private void Update()
     {
-
+        PlayerDirection();
+        PlayerAnimation();
     }
 
     #endregion
@@ -86,8 +88,6 @@ public class PlayerController : MonoBehaviour
     {
         if (playerDirection != Vector2.zero)
         {
-            myAnim.SetFloat("Horizontal", playerDirection.x);
-            myAnim.SetFloat("Vertical", playerDirection.y);
             myAnim.SetBool("isWalk", true);
         }
         else
@@ -99,7 +99,7 @@ public class PlayerController : MonoBehaviour
     private void PlayerFlip()
     {
         isRight = !isRight;
-        transform.Rotate(0.0f, 180.0f, 0.0f);
+        transform.localScale = new Vector2(transform.localScale.x * -1, transform.localScale.y);
     }
 
     #endregion

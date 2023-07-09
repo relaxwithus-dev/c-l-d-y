@@ -1,13 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9b1e1e0e-3bb7-4ae6-b739-c99975a792c2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.c-l-d-y/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.c-l-d-y/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Misc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Misc/SingletonMonobehaviour.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Misc/SingletonMonobehaviour.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Font/Stacked pixel SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Font/Stacked pixel SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Scenes/typing-clock-mechanic.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Scenes/typing-clock-mechanic.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/Redundant.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/Redundant/Dummy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/Redundant/Dummy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/Redundant/TypingClockOld.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/Redundant/TypingClockOld.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingClock.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingClock.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingFirstItem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingFirstItem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingSecondItem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingSecondItem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingThirdItem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingThirdItem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/ItemController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/ItemController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Redundant.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Redundant/Base.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Redundant/Base/TypingObjectBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Redundant/Base/TypingObjectBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Redundant/Concrete.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Redundant/Concrete/TypingGetItem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Redundant/Concrete/TypingGetItem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +43,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3ea01e77be99618395f448b16bd7cc2bd4248bd9e5d8474964b2d97f39c5d74/System.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Asset Component/Script/Camera/GroundCameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Singleton/SingletonMonobehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Object/Redundant/Concrete/TypingGetItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Asset Component/Script/Manager/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.8.9/Runtime/Behaviours/CinemachinePixelPerfect.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -31,12 +63,17 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\LENOVO\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\LENOVO\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\LENOVO\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\LENOVO\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
       &quot;C:\\Users\\LENOVO\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
@@ -45,6 +82,14 @@
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files (x86)\2021.3.18f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;C:\Users\LENOVO\Documents\Game Development\Project\c-l-d-y&quot; -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\LENOVO\Documents\Game Development\Project\c-l-d-y" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files (x86)\2021.3.18f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;C:\Users\LENOVO\Documents\Game Development\Project\c-l-d-y&quot; -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\LENOVO\Documents\Game Development\Project\c-l-d-y" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -93,7 +138,47 @@
       <workItem from="1682661136460" duration="7031000" />
       <workItem from="1682677565695" duration="3043000" />
       <workItem from="1682736339492" duration="7404000" />
-      <workItem from="1683827906716" duration="353000" />
+      <workItem from="1683827906716" duration="1257000" />
+      <workItem from="1683829719738" duration="100000" />
+      <workItem from="1683829933021" duration="509000" />
+      <workItem from="1683830763594" duration="438000" />
+      <workItem from="1683862398010" duration="2401000" />
+      <workItem from="1683870079430" duration="6037000" />
+      <workItem from="1683913199623" duration="662000" />
+      <workItem from="1684549564370" duration="3651000" />
+      <workItem from="1684573449042" duration="5951000" />
+      <workItem from="1684588235016" duration="1281000" />
+      <workItem from="1684641523526" duration="2032000" />
+      <workItem from="1684646525886" duration="3522000" />
+      <workItem from="1684692596565" duration="1350000" />
+      <workItem from="1684694065726" duration="169000" />
+      <workItem from="1684694279705" duration="690000" />
+      <workItem from="1684695138423" duration="40000" />
+      <workItem from="1684695263194" duration="4271000" />
+      <workItem from="1684725308795" duration="2829000" />
+      <workItem from="1684729401301" duration="1652000" />
+      <workItem from="1684739275842" duration="6804000" />
+      <workItem from="1684746230533" duration="30000" />
+      <workItem from="1684861254423" duration="486000" />
+      <workItem from="1685156622766" duration="45000" />
+      <workItem from="1686246049749" duration="703000" />
+      <workItem from="1687144991058" duration="4760000" />
+      <workItem from="1687665855787" duration="975000" />
+      <workItem from="1687667448907" duration="6841000" />
+      <workItem from="1687676233433" duration="604000" />
+      <workItem from="1687689414136" duration="1037000" />
+      <workItem from="1687755160807" duration="2088000" />
+      <workItem from="1687869179133" duration="2323000" />
+      <workItem from="1687926134690" duration="5834000" />
+      <workItem from="1687936872146" duration="21000" />
+      <workItem from="1688355145004" duration="8186000" />
+      <workItem from="1688374212791" duration="219000" />
+      <workItem from="1688401528123" duration="600000" />
+      <workItem from="1688448304173" duration="3818000" />
+      <workItem from="1688530157033" duration="6776000" />
+      <workItem from="1688609732808" duration="662000" />
+      <workItem from="1688882852180" duration="2329000" />
+      <workItem from="1688885570689" duration="188000" />
     </task>
     <servers />
   </component>

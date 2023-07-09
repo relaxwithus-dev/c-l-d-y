@@ -9,19 +9,9 @@ public class PlayerTyping : MonoBehaviour
     protected List<KeyCode> activeInputs = new List<KeyCode>();
     public string CodeText { get; private set; }
 
-    [Header("Reference")] private TypingGotItem typingObjectBase;
-
-    private void Awake()
-    {
-        typingObjectBase = GameObject.Find("Object").GetComponent<TypingGotItem>();
-    }
-
     private void Update()
     {
-        if (typingObjectBase.isTypingArea)
-        {
-            CheckAnyKey();
-        }
+        CheckAnyKey();
     }
 
     private void CheckAnyKey()
@@ -37,11 +27,12 @@ public class PlayerTyping : MonoBehaviour
                     activeInputs.Remove(code);
                     activeInputs.Add(code);
                     pressedInput.Add(code);
-
-                    Debug.Log(code + " was pressed");
+                    
                     CodeText = code.ToString();
                 }
             }
         }
     }
+    
+    public void SetCodeTextNull() => CodeText = null;
 }
