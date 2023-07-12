@@ -11,30 +11,65 @@ using UnityEngine;
 
 #endregion
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : SingletonMonobehaviour<PlayerController>
 {
     [Header("Scriptable Object Component")]
     [SerializeField] private PlayerData playerDataSO;
 
     [Header("Movement Component")]
     [SerializeField] private Vector2 playerDirection;
-    [SerializeField] private bool isRight;
+    private bool isRight = true;
+    private bool isPlayerMovementDisabled = false;
 
     [Header("Reference")]
     private Rigidbody2D myRb;
     private Animator myAnim;
+    private BoxCollider2D myCollider;
+    private Vector2 normalColSize;
+    private Vector2 shrinkColSize;
+    private Vector2 normalColOffset;
+    private Vector2 shrinkColOffset;
+    private bool isShrink = false;
+    public bool IsShrink { get => isShrink; set => isShrink = value; }
+
+
+    [Header("Shrink")]
+    [SerializeField] private RuntimeAnimatorController animNormal;
+    [SerializeField] private RuntimeAnimatorController animShrink;
+
 
     #region MonoBehaviour Callbacks
 
-    private void Awake()
+    protected override void Awake()
     {
+        base.Awake();
         myRb = GetComponent<Rigidbody2D>();
         myAnim = GetComponentInChildren<Animator>();
+        // myAnim = GetComponent<Animator>();
+        myCollider = GetComponent<BoxCollider2D>();
+    }
+
+    void OnEnable()
+    {
+        EventHandler.ChangeBodyEvent += ChangeBody;
+        EventHandler.ShrinkEvent += Shrink;
+    }
+
+    void OnDisable()
+    {
+        EventHandler.ChangeBodyEvent -= ChangeBody;
+        EventHandler.ShrinkEvent -= Shrink;
     }
 
     private void Start()
     {
         gameObject.name = playerDataSO.playerName;
+        normalColSize = new Vector2(0.67f, 0.2f); //the value determined by the sprite size
+        shrinkColSize = new Vector2(0.67f, 0.08f); //the value determined by the sprite size
+        normalColOffset = new Vector2(myCollider.offset.x, 0.085f); //the value determined by the sprite size
+        shrinkColOffset = new Vector2(myCollider.offset.x, 0.025f); //the value determined by the sprite size
+
+        myAnim.runtimeAnimatorController = animNormal;
     }
 
     // Physics Update
@@ -44,9 +79,12 @@ public class PlayerController : MonoBehaviour
         // {
         //     return;
         // }
-        
-        PlayerMovement();
-        
+
+        if (isPlayerMovementDisabled == false)
+        {
+            PlayerMovement();
+        }
+
     }
 
     // Logic Update
@@ -96,12 +134,66 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void PlayerFlip()
+    public void PlayerFlip()
     {
         isRight = !isRight;
         transform.localScale = new Vector2(transform.localScale.x * -1, transform.localScale.y);
     }
 
     #endregion
+
+    private void ChangeBody()
+    {
+        if (isShrink == false)
+        {
+            myAnim.runtimeAnimatorController = animShrink;
+            myCollider.size = shrinkColSize;
+            myCollider.offset = shrinkColOffset;
+
+            StartCoroutine(Shrinked());
+        }
+        else
+        {
+            myAnim.runtimeAnimatorController = animNormal;
+            myCollider.size = normalColSize;
+            myCollider.offset = normalColOffset;
+
+            StartCoroutine(Shrinked());
+        }
+    }
+
+    private void Shrink(Vector3 target, float moveDuration)
+    {
+        StartCoroutine(NormalAndSmall(target, moveDuration));
+    }
+
+    IEnumerator NormalAndSmall(Vector3 target, float moveDuration)
+    {
+        Vector3 startPosition = transform.position;
+        float timeElapsed = 0f;
+
+        while (timeElapsed < 1)
+        {
+            transform.position = Vector3.Lerp(startPosition, target, timeElapsed);
+            timeElapsed += Time.deltaTime / moveDuration;
+
+            yield return new WaitForEndOfFrame();
+        }
+
+        transform.position = target;
+    }
+
+    IEnumerator Shrinked()
+    {
+        yield return new WaitForSeconds(2f);
+        if (!isShrink)
+        {
+            isShrink = true;
+        }
+        else
+        {
+            isShrink = false;
+        }
+    }
 
 }
