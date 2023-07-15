@@ -685,8 +685,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anyWords: SATU
-  <IsCorrect>k__BackingField: 0
-  anyWordsText: {fileID: 1995097460}
+  anyWordsTextUI: {fileID: 0}
 --- !u!1 &93652804
 GameObject:
   m_ObjectHideFlags: 3
@@ -920,7 +919,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8.4375
+  orthographic size: 6.140625
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1412,12 +1411,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anyWords: DUA
-  <IsCorrect>k__BackingField: 0
-  anyWordsText: {fileID: 1878109151}
+  anyWordsTextUI: {fileID: 0}
   firstItem: {fileID: 75525468}
-  notifyText: asepret sek masbro
-  notifyObject: {fileID: 877838191}
-  notifyTextUI: {fileID: 2036339421}
+  notifyComponent:
+    notifyText: 
+    notifyObject: {fileID: 0}
+    notifyTextUI: {fileID: 0}
 --- !u!1 &311139712
 GameObject:
   m_ObjectHideFlags: 0
@@ -2262,13 +2261,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anyWords: TIGA
-  <IsCorrect>k__BackingField: 0
-  anyWordsText: {fileID: 54336380}
+  anyWordsTextUI: {fileID: 0}
   firstItem: {fileID: 75525468}
   secondItem: {fileID: 301212994}
-  notifyText: ywdh sih wir
-  notifyObject: {fileID: 877838191}
-  notifyTextUI: {fileID: 2036339421}
+  notifyComponent:
+    notifyText: 
+    notifyObject: {fileID: 0}
+    notifyTextUI: {fileID: 0}
 --- !u!1 &586947845
 GameObject:
   m_ObjectHideFlags: 3
@@ -3164,11 +3163,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &877838191 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3247107939533556247, guid: 80d52911de945514a9084aaa4f7bdbc4, type: 3}
-  m_PrefabInstance: {fileID: 3247107939872093560}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &877838192 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3247107939533556232, guid: 80d52911de945514a9084aaa4f7bdbc4, type: 3}
@@ -4351,13 +4345,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anyWords: TIGA
-  <IsCorrect>k__BackingField: 0
-  anyWordsText: {fileID: 1436333362}
+  anyWordsTextUI: {fileID: 0}
   firstItem: {fileID: 75525468}
   secondItem: {fileID: 301212994}
-  notifyText: ywdh sih wir
-  notifyObject: {fileID: 877838191}
-  notifyTextUI: {fileID: 2036339421}
+  notifyComponent:
+    notifyText: 
+    notifyObject: {fileID: 0}
+    notifyTextUI: {fileID: 0}
 --- !u!61 &1623760129
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5555,17 +5549,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1995097458}
   m_CullTransparentMesh: 1
---- !u!114 &2036339421 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3247107940788545445, guid: 80d52911de945514a9084aaa4f7bdbc4, type: 3}
-  m_PrefabInstance: {fileID: 3247107939872093560}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &3247107939872093560
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5674,45 +5657,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6264357665428486518, guid: c8d75713935ced64199df03aaa234d91, type: 3}
-      propertyPath: animNormal
-      value: 
-      objectReference: {fileID: 9100000, guid: f56af0e4e2841b647a4ccfbf8338b3ad, type: 2}
-    - target: {fileID: 6264357665428486518, guid: c8d75713935ced64199df03aaa234d91, type: 3}
-      propertyPath: animShrink
-      value: 
-      objectReference: {fileID: 9100000, guid: 36976e00c8784554b8d86fca2c641c1f, type: 2}
-    - target: {fileID: 6264357665428486518, guid: c8d75713935ced64199df03aaa234d91, type: 3}
-      propertyPath: targetLeftPos
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6264357665428486518, guid: c8d75713935ced64199df03aaa234d91, type: 3}
-      propertyPath: targetRightPos
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6264357665428486519, guid: c8d75713935ced64199df03aaa234d91, type: 3}
-      propertyPath: m_Size.x
-      value: 0.67
-      objectReference: {fileID: 0}
-    - target: {fileID: 6264357665428486519, guid: c8d75713935ced64199df03aaa234d91, type: 3}
-      propertyPath: m_Size.y
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6264357665428486519, guid: c8d75713935ced64199df03aaa234d91, type: 3}
-      propertyPath: m_Offset.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6264357665428486519, guid: c8d75713935ced64199df03aaa234d91, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.0852716
-      objectReference: {fileID: 0}
     - target: {fileID: 6264357665428486521, guid: c8d75713935ced64199df03aaa234d91, type: 3}
       propertyPath: m_Name
       value: Cloudy
-      objectReference: {fileID: 0}
-    - target: {fileID: 6264357665428486522, guid: c8d75713935ced64199df03aaa234d91, type: 3}
-      propertyPath: m_SpriteSortPoint
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6264357665428486523, guid: c8d75713935ced64199df03aaa234d91, type: 3}
       propertyPath: m_RootOrder
