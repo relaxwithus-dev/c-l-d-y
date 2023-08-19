@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 04cf9442b7287f345b065240d6b4ac85
+guid: 5b57fd558c3437240bd253202533ec41
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -102,43 +102,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -153,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DOC Character Sprite_0
+      name: MP3 Character Singing_0
       rect:
         serializedVersion: 2
-        x: 5
+        x: 0
         y: 0
-        width: 27
-        height: 36
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd376d560d27aa845b5d3967099711b7
-      internalID: -1201145547
+      spriteID: 9a35dd95c79aa1048a6a3d851cac4f35
+      internalID: 2072513304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DOC Character Sprite_1
+      name: MP3 Character Singing_1
       rect:
         serializedVersion: 2
-        x: 46
+        x: 40
         y: 0
-        width: 29
-        height: 36
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9d2b963c5521964d87d8b88ecd7c7e5
-      internalID: 1642627889
+      spriteID: 71547ee40784c754394c5598d2f85d4d
+      internalID: -1402884431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DOC Character Sprite_2
+      name: MP3 Character Singing_2
       rect:
         serializedVersion: 2
-        x: 87
+        x: 80
         y: 0
-        width: 27
-        height: 36
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22369655fb4c3bf4d902a324f130e494
-      internalID: -1172069453
+      spriteID: 87d544ffa6e7e21418abc76c2041d66a
+      internalID: -1644138675
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DOC Character Sprite_3
+      name: MP3 Character Singing_3
       rect:
         serializedVersion: 2
-        x: 128
+        x: 120
         y: 0
-        width: 27
-        height: 35
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ddaa749187646f4ebd730bfbd72e47d
-      internalID: 1871931612
+      spriteID: 5e0f7b6805cf0a04c806823b3fe9e379
+      internalID: -2015919474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DOC Character Sprite_4
+      name: MP3 Character Singing_4
       rect:
         serializedVersion: 2
-        x: 169
+        x: 160
         y: 0
-        width: 27
-        height: 35
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -251,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e83de35c15bcd784e9915ce1e671e8c7
-      internalID: 923629583
+      spriteID: 606cd99de67994e4abef7ead3b97494d
+      internalID: 820957921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DOC Character Sprite_5
+      name: MP3 Character Singing_5
       rect:
         serializedVersion: 2
-        x: 210
+        x: 200
         y: 0
-        width: 27
-        height: 36
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,8 +236,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 210b8ea4d117c1344a2fa95363bd1b9c
-      internalID: 1140338005
+      spriteID: 7491d7edbfd24cc40a750c4872a6a5b9
+      internalID: -1703408153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MP3 Character Singing_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ef4a702dd98574a9aed32b614214b5
+      internalID: -1985609824
       vertices: []
       indices: 
       edges: []
@@ -289,12 +274,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      DOC Character Sprite_4: 923629583
-      DOC Character Sprite_2: -1172069453
-      DOC Character Sprite_5: 1140338005
-      DOC Character Sprite_1: 1642627889
-      DOC Character Sprite_3: 1871931612
-      DOC Character Sprite_0: -1201145547
+      MP3 Character Singing_3: -2015919474
+      MP3 Character Singing_5: -1703408153
+      MP3 Character Singing_4: 820957921
+      MP3 Character Singing_6: -1985609824
+      MP3 Character Singing_1: -1402884431
+      MP3 Character Singing_2: -1644138675
+      MP3 Character Singing_0: 2072513304
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

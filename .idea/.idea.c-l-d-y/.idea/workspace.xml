@@ -6,40 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="9b1e1e0e-3bb7-4ae6-b739-c99975a792c2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.c-l-d-y/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.c-l-d-y/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Font/Stacked pixel SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Font/Stacked pixel SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Scenes/typing-clock-mechanic.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Scenes/typing-clock-mechanic.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/Redundant.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/Redundant/Dummy.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/Redundant/Dummy.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/Redundant/TypingClockOld.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/Redundant/TypingClockOld.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingClock.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingClock.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingFirstItem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingFirstItem.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingSecondItem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingSecondItem.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingThirdItem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Design Pattern/Observer/Concrete/Subject/TypingThirdItem.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/ItemController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/ItemController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Redundant.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Redundant/Base.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Redundant/Base/TypingObjectBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Redundant/Base/TypingObjectBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Redundant/Concrete.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Redundant/Concrete/TypingGetItem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/InteractableObject/Redundant/Concrete/TypingGetItem.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3ea01e77be99618395f448b16bd7cc2bd4248bd9e5d8474964b2d97f39c5d74/System.cs" root0="SKIP_HIGHLIGHTING" />
@@ -52,32 +26,36 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
   <component name="ProjectId" id="2ONPfxo4lUvJfcRw3MplOq3xWkk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Discover.Launch.Via.Unity": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "level-one",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\LENOVO\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\LENOVO\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\LENOVO\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\LENOVO\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
+      "C:\\Users\\LENOVO\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
+      "C:\\Users\\LENOVO\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files (x86)\2021.3.18f1\Editor\Unity.exe" />
@@ -179,6 +157,7 @@
       <workItem from="1688609732808" duration="662000" />
       <workItem from="1688882852180" duration="2329000" />
       <workItem from="1688885570689" duration="188000" />
+      <workItem from="1691549354883" duration="617000" />
     </task>
     <servers />
   </component>

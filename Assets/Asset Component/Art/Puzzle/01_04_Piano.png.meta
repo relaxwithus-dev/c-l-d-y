@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c0aaa9569411a21469650d76cea02513
+guid: 1d5d603d0111d024586da2486be7c9a8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -102,43 +102,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -153,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MP3 Character Singing_0
+      name: 01_04_Piano_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 0
-        width: 27
-        height: 40
+        x: 8
+        y: 10
+        width: 61
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e95a232e08834b49b4288682cf0b22b
-      internalID: -765391772
+      spriteID: 3452b6535cad768498823af95a410194
+      internalID: -1905256014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MP3 Character Singing_1
+      name: 01_04_Piano_1
       rect:
         serializedVersion: 2
-        x: 45
-        y: 0
-        width: 27
-        height: 39
+        x: 104
+        y: 10
+        width: 61
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cb878140318786498a024258f40d9e0
-      internalID: -612235497
+      spriteID: ff960d5ef70dc2f4aab53cfe643740bf
+      internalID: 864562168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MP3 Character Singing_2
+      name: 01_04_Piano_2
       rect:
         serializedVersion: 2
-        x: 86
-        y: 0
-        width: 27
-        height: 39
+        x: 177
+        y: 6
+        width: 67
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,92 +173,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af35af4c4f5f1034bb2fd2e56f5b522a
-      internalID: 308510407
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MP3 Character Singing_3
-      rect:
-        serializedVersion: 2
-        x: 127
-        y: 0
-        width: 27
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 75e4c875b33864e4fab24cadd65e3346
-      internalID: 1071874782
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MP3 Character Singing_4
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 0
-        width: 27
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f219eff9b7614904e87229a59fd6228d
-      internalID: -1620518585
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MP3 Character Singing_5
-      rect:
-        serializedVersion: 2
-        x: 209
-        y: 0
-        width: 27
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 656f23e26e405f54dad84516c8e96378
-      internalID: 1192260221
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MP3 Character Singing_6
-      rect:
-        serializedVersion: 2
-        x: 250
-        y: 0
-        width: 27
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4755abb9c91640943bee83f0688fe3de
-      internalID: -1587887447
+      spriteID: 6d62973f8301c094caf0164d216dc3c3
+      internalID: 607737608
       vertices: []
       indices: 
       edges: []
@@ -310,13 +190,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      MP3 Character Singing_3: 1071874782
-      MP3 Character Singing_5: 1192260221
-      MP3 Character Singing_4: -1620518585
-      MP3 Character Singing_6: -1587887447
-      MP3 Character Singing_1: -612235497
-      MP3 Character Singing_2: 308510407
-      MP3 Character Singing_0: -765391772
+      01_04_Piano_1: 864562168
+      01_04_Piano_2: 607737608
+      01_04_Piano_0: -1905256014
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

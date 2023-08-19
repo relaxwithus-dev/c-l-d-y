@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 44807080c3fb4344984f7c060e8b08cc
+guid: 8a9e5ac578ace8d418285ab4639576e1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -102,43 +102,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -153,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PNG Character Sprite_0
+      name: Main Character Walk_0
       rect:
         serializedVersion: 2
-        x: 5
+        x: 0
         y: 0
-        width: 24
-        height: 36
+        width: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9168b0576e3a16d49861ce327bfdada7
-      internalID: -1754376767
+      spriteID: 32c501cdb1beb324096cfc2c3bade457
+      internalID: 855999679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PNG Character Sprite_1
+      name: Main Character Walk_1
       rect:
         serializedVersion: 2
-        x: 42
+        x: 32
         y: 0
-        width: 35
-        height: 36
+        width: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 584d3a8f06e69604dbcd8b2c36a5085f
-      internalID: 481197107
+      spriteID: a739fdc6c5e2b684fa98cbde7bc00a51
+      internalID: -1797831214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PNG Character Sprite_2
+      name: Main Character Walk_2
       rect:
         serializedVersion: 2
-        x: 82
+        x: 64
         y: 0
-        width: 36
-        height: 37
+        width: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e4792883a3044e438a1514a4a96745e
-      internalID: 656983302
+      spriteID: 5ec9ddc22075e7c4e812a2219dd0d1f1
+      internalID: -92162196
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PNG Character Sprite_3
+      name: Main Character Walk_3
       rect:
         serializedVersion: 2
-        x: 123
+        x: 96
         y: 0
-        width: 36
-        height: 39
+        width: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b7686fb362d92a4cbdb41b2771d9b9e
-      internalID: 913478761
+      spriteID: e06c0d521e9b2ad4c8aa6752c8dc1194
+      internalID: -1098374089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PNG Character Sprite_4
+      name: Main Character Walk_4
       rect:
         serializedVersion: 2
-        x: 165
+        x: 128
         y: 0
-        width: 35
-        height: 38
+        width: 32
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -251,50 +215,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb4ea4feed5bd564dac34d1bf8fe8c5b
-      internalID: 1604337755
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PNG Character Sprite_5
-      rect:
-        serializedVersion: 2
-        x: 209
-        y: 0
-        width: 27
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89a4fa8d2db2ab34281c08de487ff636
-      internalID: -1726151196
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PNG Character Sprite_6
-      rect:
-        serializedVersion: 2
-        x: 250
-        y: 0
-        width: 26
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a2c971f99e88a60489b013a90cec15a1
-      internalID: -1578919893
+      spriteID: 4397c26158c9f6a4f86f0dff46138a6b
+      internalID: 1588711518
       vertices: []
       indices: 
       edges: []
@@ -310,15 +232,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PNG Character Sprite_2: 656983302
-      PNG Character Sprite_8: -1860381860
-      PNG Character Sprite_7: 670579473
-      PNG Character Sprite_4: 1604337755
-      PNG Character Sprite_0: -1754376767
-      PNG Character Sprite_6: -1578919893
-      PNG Character Sprite_1: 481197107
-      PNG Character Sprite_3: 913478761
-      PNG Character Sprite_5: -1726151196
+      Main Character Walk_3: -1098374089
+      Main Character Walk_2: -92162196
+      Main Character Walk_0: 855999679
+      Main Character Walk_1: -1797831214
+      Main Character Walk_4: 1588711518
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
