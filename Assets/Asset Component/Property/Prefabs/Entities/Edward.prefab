@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6264357665428486518}
   - component: {fileID: 6264357665428486517}
   m_Layer: 6
-  m_Name: Cloudy
+  m_Name: Edward
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

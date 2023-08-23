@@ -5329,7 +5329,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6264357665428486521, guid: c8d75713935ced64199df03aaa234d91, type: 3}
       propertyPath: m_Name
-      value: Cloudy
+      value: Edward
       objectReference: {fileID: 0}
     - target: {fileID: 6264357665428486523, guid: c8d75713935ced64199df03aaa234d91, type: 3}
       propertyPath: m_RootOrder
