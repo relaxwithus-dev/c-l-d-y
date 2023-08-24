@@ -5,27 +5,21 @@ using UnityEngine.Serialization;
 
 public class TypingBase : ObserverSubject
 {
-    #region Typing Component
+    #region Variable
     
     [Header("Typing Component")]
     public string anyWords;
     public int letterIndex { get; set; }
     public bool isTypingArea { get; set; }
     public bool IsCorrect { get; set; }
-
-    #endregion
-
-    #region UI Component
     
+    [Header("UI Component")]
     public TextMeshProUGUI anyWordsTextUI;
     public Color[] characterColors { get; private set; }
     
-    #endregion
-
-    #region Reference
-    
+    // Reference
     public PlayerTyping playerTyping {get; private set;}
-    
+
     #endregion
 
     #region Some Struct
@@ -49,7 +43,7 @@ public class TypingBase : ObserverSubject
     
     #endregion
 
-    #region Tsukuyomi Callbacks
+    #region Relax With Us Callbacks
     
     public void InteractStart()
     {
@@ -115,7 +109,7 @@ public class TypingBase : ObserverSubject
     
     #endregion
 
-    #region Collider2D Callbacks
+    #region Collider Callbacks
     
     private void OnTriggerStay2D(Collider2D other)
     {

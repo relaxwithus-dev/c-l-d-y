@@ -1238,7 +1238,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerDataSO: {fileID: 11400000, guid: 65aef7bc655bfa047a4bb8cc7ad1042c, type: 2}
   playerDirection: {x: 0, y: 0}
-  isRight: 0
+  animNormal: {fileID: 0}
+  animShrink: {fileID: 0}
 --- !u!61 &938930127
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1798,7 +1799,7 @@ MonoBehaviour:
   player: {fileID: 938930124}
   npc01: {fileID: 1062595347}
   dialogueBubble: {fileID: 1012983410}
-  dialogueText: {fileID: 1088574845}
+  dialogueTextUI: {fileID: 1088574845}
   typingSpeed: 0.03
 --- !u!4 &1510048871
 Transform:

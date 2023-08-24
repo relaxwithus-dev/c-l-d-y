@@ -7,7 +7,7 @@ public class Normal : MonoBehaviour
     public Transform targetLeftPos;
     public float moveDuration = 0.5f;
 
-    void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {

@@ -7,25 +7,24 @@ using UnityEngine.Experimental.Rendering.Universal;
 
 public class GroundCameraController : MonoBehaviour
 {
-    #region Main Component n Reference
+    #region Variable
 
+    [Header("Main Component")]
     [SerializeField] private int groundNumber;
-    private bool isMoveGround;
-
+    [SerializeField] private int targetPixelPerUnitCamera;
+    
     private int currentPixelPerUnitCamera;
     private int normalPixelPerUnitCamera;
-    [SerializeField] private int targetPixelPerUnitCamera;
-
-    private Animator cameraAnim;
-    [SerializeField] private PixelPerfectCamera pixelPerfectCamera;
+    private bool isMoveGround;
     
-    #endregion
-    
-    #region Parameters
-
+    // Constant Parameter
     private const string IS_GROUND = "isGround";
     private const string GROUND_NUM = "groundNum";
-
+    
+    [Header("Reference")]
+    [SerializeField] private PixelPerfectCamera pixelPerfectCamera;
+    private Animator cameraAnim;
+    
     #endregion
     
     #region MonoBehaviour Callbacks
@@ -54,6 +53,10 @@ public class GroundCameraController : MonoBehaviour
             ResizeCameraPlayer();
         }
     }
+    
+    #endregion
+
+    #region Collider Callbacks
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -98,8 +101,8 @@ public class GroundCameraController : MonoBehaviour
     }
 
     #endregion
-
-    #region Tsukuyomi Method's
+    
+    #region Relax With Us Callbacks
 
     private void ResizeCameraGround()
     {

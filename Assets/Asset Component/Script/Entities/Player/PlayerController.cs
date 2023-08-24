@@ -13,6 +13,8 @@ using UnityEngine;
 
 public class PlayerController : SingletonMonobehaviour<PlayerController>
 {
+    #region Variable
+
     [Header("Scriptable Object Component")]
     [SerializeField] private PlayerData playerDataSO;
 
@@ -20,6 +22,10 @@ public class PlayerController : SingletonMonobehaviour<PlayerController>
     [SerializeField] private Vector2 playerDirection;
     private bool isRight = true;
     private bool isPlayerMovementDisabled = false;
+    
+    [Header("Shrink Component")]
+    [SerializeField] private RuntimeAnimatorController animNormal;
+    [SerializeField] private RuntimeAnimatorController animShrink;
 
     [Header("Reference")]
     private Rigidbody2D myRb;
@@ -29,23 +35,19 @@ public class PlayerController : SingletonMonobehaviour<PlayerController>
     private Vector2 shrinkColSize;
     private Vector2 normalColOffset;
     private Vector2 shrinkColOffset;
-    private bool isShrink = false;
+    private bool isShrink;
     public bool IsShrink { get => isShrink; set => isShrink = value; }
 
-
-    [Header("Shrink")]
-    [SerializeField] private RuntimeAnimatorController animNormal;
-    [SerializeField] private RuntimeAnimatorController animShrink;
-
+    #endregion
 
     #region MonoBehaviour Callbacks
 
     protected override void Awake()
     {
         base.Awake();
+        
         myRb = GetComponent<Rigidbody2D>();
         myAnim = GetComponentInChildren<Animator>();
-        // myAnim = GetComponent<Animator>();
         myCollider = GetComponent<BoxCollider2D>();
     }
 
@@ -63,13 +65,9 @@ public class PlayerController : SingletonMonobehaviour<PlayerController>
 
     private void Start()
     {
-        gameObject.name = playerDataSO.playerName;
-        normalColSize = new Vector2(0.67f, 0.2f); //the value determined by the sprite size
-        shrinkColSize = new Vector2(0.67f, 0.08f); //the value determined by the sprite size
-        normalColOffset = new Vector2(myCollider.offset.x, 0.085f); //the value determined by the sprite size
-        shrinkColOffset = new Vector2(myCollider.offset.x, 0.025f); //the value determined by the sprite size
-
-        myAnim.runtimeAnimatorController = animNormal;
+        InitializeShrink();
+        isShrink = false;
+        gameObject.name = playerDataSO.PlayerName;
     }
 
     // Physics Update
@@ -80,7 +78,7 @@ public class PlayerController : SingletonMonobehaviour<PlayerController>
         //     return;
         // }
 
-        if (isPlayerMovementDisabled == false)
+        if (!isPlayerMovementDisabled)
         {
             PlayerMovement();
         }
@@ -95,6 +93,8 @@ public class PlayerController : SingletonMonobehaviour<PlayerController>
     }
 
     #endregion
+    
+    #region Relax With Us Callbacks
 
     #region Movement Method
 
@@ -106,7 +106,7 @@ public class PlayerController : SingletonMonobehaviour<PlayerController>
 
         playerDirection = new Vector2(moveX, moveY);
         playerDirection.Normalize();
-        myRb.velocity = playerDirection * playerDataSO.playerSpeed;
+        myRb.velocity = playerDirection * playerDataSO.PlayerSpeed;
     }
 
     private void PlayerDirection()
@@ -142,6 +142,18 @@ public class PlayerController : SingletonMonobehaviour<PlayerController>
 
     #endregion
 
+    #region Shrink Method
+
+    private void InitializeShrink()
+    {
+        normalColSize = new Vector2(0.67f, 0.2f); //the value determined by the sprite size
+        shrinkColSize = new Vector2(0.67f, 0.08f); //the value determined by the sprite size
+        normalColOffset = new Vector2(myCollider.offset.x, 0.085f); //the value determined by the sprite size
+        shrinkColOffset = new Vector2(myCollider.offset.x, 0.025f); //the value determined by the sprite size
+
+        myAnim.runtimeAnimatorController = animNormal;
+    }
+    
     private void ChangeBody()
     {
         if (isShrink == false)
@@ -167,12 +179,12 @@ public class PlayerController : SingletonMonobehaviour<PlayerController>
         StartCoroutine(NormalAndSmall(target, moveDuration));
     }
 
-    IEnumerator NormalAndSmall(Vector3 target, float moveDuration)
+    private IEnumerator NormalAndSmall(Vector3 target, float moveDuration)
     {
         Vector3 startPosition = transform.position;
-        float timeElapsed = 0f;
+        var timeElapsed = 0f;
 
-        while (timeElapsed < 1)
+        while (timeElapsed < 1.0f)
         {
             transform.position = Vector3.Lerp(startPosition, target, timeElapsed);
             timeElapsed += Time.deltaTime / moveDuration;
@@ -183,7 +195,7 @@ public class PlayerController : SingletonMonobehaviour<PlayerController>
         transform.position = target;
     }
 
-    IEnumerator Shrinked()
+    private IEnumerator Shrinked()
     {
         yield return new WaitForSeconds(2f);
         if (!isShrink)
@@ -195,5 +207,10 @@ public class PlayerController : SingletonMonobehaviour<PlayerController>
             isShrink = false;
         }
     }
+
+    #endregion
+
+    #endregion
+    
 
 }

@@ -7,7 +7,7 @@ public class Shrink : MonoBehaviour
     public Transform targetRightPos;
     public float moveDuration = 0.5f;
 
-    void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {

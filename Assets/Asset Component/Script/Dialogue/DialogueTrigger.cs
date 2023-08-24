@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DialogueTrigger : MonoBehaviour
 {
+    #region Variable
+
     [Header("Visual")]
     [SerializeField] private GameObject visualQue;
 
@@ -12,15 +14,17 @@ public class DialogueTrigger : MonoBehaviour
 
     private bool playerInRanged;
 
-    // Start is called before the first frame update
-    void Start()
+    #endregion
+
+    #region MonoBehaviour Callbacks
+
+    private void Start()
     {
         playerInRanged = false;
         visualQue.SetActive(false);
     }
-
-    // Update is called once per frame
-    void Update()
+    
+    private void Update()
     {
         if (playerInRanged && !DialogueManager.Instance.dialogueIsPlaying)
         {
@@ -37,7 +41,11 @@ public class DialogueTrigger : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D collider)
+    #endregion
+
+    #region Collider Callbacks
+
+    private void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.CompareTag("Player"))
         {
@@ -45,11 +53,15 @@ public class DialogueTrigger : MonoBehaviour
         }
     }
 
-    void OnTriggerExit2D(Collider2D collider)
+    private void OnTriggerExit2D(Collider2D collider)
     {
         if (collider.CompareTag("Player"))
         {
             playerInRanged = false;
         }
     }
+
+    #endregion
+
+    
 }

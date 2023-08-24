@@ -62,7 +62,7 @@ public class GroundNarratorSystem : MonoBehaviour, IObserver
 
     #endregion
 
-    #region Another Methods
+    #region Relax With Us Callbacks
 
     private void InitializeAddObserver()
     {

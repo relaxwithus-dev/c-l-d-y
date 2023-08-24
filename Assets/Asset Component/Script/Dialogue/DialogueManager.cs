@@ -4,9 +4,12 @@ using UnityEngine;
 using TMPro;
 using Ink.Runtime;
 using System;
+using UnityEngine.Serialization;
 
 public class DialogueManager : SingletonMonobehaviour<DialogueManager>
 {
+    #region Variable
+
     [Header("GameObject")]
     [SerializeField] private GameObject player;
     private GameObject playerBubbleTransform;
@@ -15,26 +18,31 @@ public class DialogueManager : SingletonMonobehaviour<DialogueManager>
 
     [Header("DialogueUI")]
     [SerializeField] private GameObject dialogueBubble;
-    [SerializeField] private TextMeshProUGUI dialogueText;
+    [SerializeField] private TextMeshProUGUI dialogueTextUI;
 
     [Header("Parameter")]
-    [SerializeField] private float typingSpeed = 0.02f;
+    [SerializeField] private float typingSpeed;
 
     private Coroutine displayLineCoroutine;
-    private bool canContinueToNextLine = false;
-    private bool isRichTextTag = false;
+    private bool canContinueToNextLine;
+    private bool isRichTextTag;
 
     private Story currentStory;
     public bool dialogueIsPlaying { get; private set; }
-
+    
+    // Constant
     private const string SPEAKER_TAG = "speaker";
+
+    #endregion
+
+    #region MonoBehaviour Callbacks
 
     protected override void Awake()
     {
         base.Awake();
     }
 
-    void Start()
+    private void Start()
     {
         // get gameobject in child of the object with idex 0
         playerBubbleTransform = player.transform.GetChild(0).gameObject;
@@ -42,9 +50,13 @@ public class DialogueManager : SingletonMonobehaviour<DialogueManager>
 
         dialogueIsPlaying = false;
         dialogueBubble.SetActive(false);
+        
+        typingSpeed = 0.02f;
+        canContinueToNextLine = false;
+        isRichTextTag = false;
     }
 
-    void Update()
+    private void Update()
     {
         // return when dialogue isn't playing
         if (!dialogueIsPlaying)
@@ -58,6 +70,10 @@ public class DialogueManager : SingletonMonobehaviour<DialogueManager>
         }
     }
 
+    #endregion
+
+    #region Relax With Us Callbacks
+    
     public void EnterDialogueMode(TextAsset inkJSON)
     {
         currentStory = new Story(inkJSON.text);
@@ -104,13 +120,13 @@ public class DialogueManager : SingletonMonobehaviour<DialogueManager>
 
         dialogueIsPlaying = false;
         dialogueBubble.SetActive(false);
-        dialogueText.text = "";
+        dialogueTextUI.text = "";
     }
 
     IEnumerator DisplayLine(string line)
     {
         //empty the dialogue text
-        dialogueText.text = "";
+        dialogueTextUI.text = "";
 
         canContinueToNextLine = false;
 
@@ -128,7 +144,7 @@ public class DialogueManager : SingletonMonobehaviour<DialogueManager>
             if (letter == '<' || isRichTextTag)
             {
                 isRichTextTag = true;
-                dialogueText.text += letter;
+                dialogueTextUI.text += letter;
 
                 if (letter == '>')
                 {
@@ -138,7 +154,7 @@ public class DialogueManager : SingletonMonobehaviour<DialogueManager>
             // if not
             else
             {
-                dialogueText.text += letter;
+                dialogueTextUI.text += letter;
                 yield return new WaitForSeconds(typingSpeed);
             }
         }
@@ -183,5 +199,9 @@ public class DialogueManager : SingletonMonobehaviour<DialogueManager>
             }
         }
     }
+
+    #endregion
+
+    
 
 }
