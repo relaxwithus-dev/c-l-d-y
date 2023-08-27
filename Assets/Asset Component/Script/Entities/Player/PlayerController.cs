@@ -20,8 +20,8 @@ public class PlayerController : SingletonMonobehaviour<PlayerController>
 
     [Header("Movement Component")]
     [SerializeField] private Vector2 playerDirection;
-    private bool isRight = true;
-    private bool isPlayerMovementDisabled = false;
+    [SerializeField] private bool isRight;
+    private bool isPlayerMovementDisabled;
     
     [Header("Shrink Component")]
     [SerializeField] private RuntimeAnimatorController animNormal;
@@ -67,6 +67,7 @@ public class PlayerController : SingletonMonobehaviour<PlayerController>
     {
         InitializeShrink();
         isShrink = false;
+        isPlayerMovementDisabled = false;
         gameObject.name = playerDataSO.PlayerName;
     }
 

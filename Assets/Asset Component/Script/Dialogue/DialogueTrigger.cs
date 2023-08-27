@@ -29,7 +29,6 @@ public class DialogueTrigger : MonoBehaviour
         if (playerInRanged && !DialogueManager.Instance.dialogueIsPlaying)
         {
             visualQue.SetActive(true);
-
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 DialogueManager.Instance.EnterDialogueMode(inkJSON);

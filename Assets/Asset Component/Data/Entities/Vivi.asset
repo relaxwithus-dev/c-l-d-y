@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c6dcdf4b55446e1a958a58169648b9a, type: 3}
-  m_Name: Cloudy
+  m_Name: Vivi
   m_EditorClassIdentifier: 
-  playerName: Cloudy
-  playerSpeed: 6
+  <PlayerName>k__BackingField: Edward
+  <PlayerSpeed>k__BackingField: 7

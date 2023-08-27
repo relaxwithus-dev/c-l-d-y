@@ -41,14 +41,14 @@ public class Following : MonoBehaviour {
         LeanTween.followBounceOut(dude3, followArrow, LeanProp.color, 1.1f);
         LeanTween.followSpring(dude4, followArrow, LeanProp.color, 1.1f, -1f, 1.5f, 0.8f);
         LeanTween.followLinear(dude5, followArrow, LeanProp.color, 0.5f);
-
+        
         // Follow Arrow scale
         LeanTween.followDamp(dude1, followArrow, LeanProp.scale, 1.1f);
         LeanTween.followSpring(dude2, followArrow, LeanProp.scale, 1.1f);
         LeanTween.followBounceOut(dude3, followArrow, LeanProp.scale, 1.1f);
         LeanTween.followSpring(dude4, followArrow, LeanProp.scale, 1.1f, -1f, 1.5f, 0.8f);
         LeanTween.followLinear(dude5, followArrow, LeanProp.scale, 5f);
-
+        
         // Titles
         var titleOffset = new Vector3(0.0f, -20f, -18f);
         LeanTween.followDamp(dude1Title, dude1, LeanProp.localPosition, 0.6f).setOffset(titleOffset);
@@ -56,7 +56,7 @@ public class Following : MonoBehaviour {
         LeanTween.followBounceOut(dude3Title, dude3, LeanProp.localPosition, 0.6f).setOffset(titleOffset);
         LeanTween.followSpring(dude4Title, dude4, LeanProp.localPosition, 0.6f, -1f, 1.5f, 0.8f).setOffset(titleOffset);
         LeanTween.followLinear(dude5Title, dude5, LeanProp.localPosition, 30f).setOffset(titleOffset);
-
+        
         // Rotate Planet
         var localPos = Camera.main.transform.InverseTransformPoint(planet.transform.position);
         LeanTween.rotateAround(Camera.main.gameObject, Vector3.left, 360f, 300f).setPoint(localPos).setRepeat(-1);
