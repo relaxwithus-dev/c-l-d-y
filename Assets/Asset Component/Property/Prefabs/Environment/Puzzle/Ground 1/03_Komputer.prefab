@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7362987921673642545}
   m_Layer: 0
   m_Name: 03_Komputer
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0aa2ed1a21174dba9768e32e9856d393, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anyWords: 
+  anyWords: Komputer
   anyWordsTextUI: {fileID: 0}
   firstItem: {fileID: 0}
   secondItem: {fileID: 0}

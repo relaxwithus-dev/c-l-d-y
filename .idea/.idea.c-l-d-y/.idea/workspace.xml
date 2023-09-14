@@ -5,150 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b1e1e0e-3bb7-4ae6-b739-c99975a792c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Data/Entities/Edward.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Data/Entities/Vivi.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Camera Lighting.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Camera Lighting/Light 2D.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Camera Lighting/Light 2D.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Camera/SmoothZoomCamera.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Camera/SmoothZoomCamera.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.c-l-d-y/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.c-l-d-y/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Dummy/ShrinkAnimIdle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Dummy/ShrinkAnimIdle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Entities/ANM-01-01 Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Entities/ANM-01-01 Idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Entities/ANM-01-02 Walk.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Entities/ANM-01-02 Walk.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Environment/ANM-01-01 Waterfall.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Environment/ANM-01-01 Waterfall.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Environment/ANM-02-01 Portal.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Environment/ANM-02-01 Portal.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Animation/Player.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Controller/Environment/PortalController.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Controller/Environment/PortalController.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Controller/Environment/WaterfallController.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Animation/Controller/Environment/WaterfallController.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Awan (276 x 100).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Awan (276 x 100).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Awan (324 x 63).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Awan (324 x 63).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Awan (357 x 73).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Awan (357 x 73).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Batu Ginjal (58 x 40).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Batu Ginjal (58 x 40).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Batu Ginjal 1.2 (65 x 41).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Batu Ginjal 1.2 (65 x 41).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Batu Ginjal 2 (58 x 40).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Batu Ginjal 2 (58 x 40).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Batu Ginjal 2.2 (65 x 41).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Batu Ginjal 2.2 (65 x 41).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Bunga (42 x 42).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Bunga (42 x 42).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/DIalog-Box (64 x 16).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/DIalog-Box (64 x 16).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/DIalog-Box (80 x 28) (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/DIalog-Box (80 x 28) (1).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/DIalog-Box (80 x 28).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/DIalog-Box (80 x 28).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/DIalog-Box (80 x 35).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/DIalog-Box (80 x 35).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Dummy.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Dummy/Pohon (37 x 51).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Dummy/Pohon (37 x 51).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Dummy/Rumput 1 (35 x 30).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Dummy/Rumput 1 (35 x 30).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Jembatan (60 x 14).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Jembatan (60 x 14).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Kardus (71 x 52).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Kardus (71 x 52).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Kerikil Dark (9 x 8).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Kerikil Dark (9 x 8).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Kerikil Light (9 x 8).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Kerikil Light (9 x 8).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Keyboard (128 x 64).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Keyboard (128 x 64).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Keyboard (64 x 32).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Keyboard (64 x 32).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Nada 1 (24 x224).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Nada 1 (24 x224).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Nada 2 (24 x224).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Nada 2 (24 x224).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Nada.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Nada.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Pagar level 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Pagar level 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Pagar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Pagar.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Path Stone Smaller.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Path Stone Smaller.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Path Stone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Path Stone.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Pohon Sakura 1 (96 x 108).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Pohon Sakura 1 (96 x 108).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Pohon Sakura 2 (154 x 130).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Pohon Sakura 2 (154 x 130).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Pohon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Pohon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Portal Sprite (94 x 88).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Portal Sprite (94 x 88).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Rumput 1 (35 x 30).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Rumput 1 (35 x 30).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Rumput 2 (40 x 14).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Rumput 2 (40 x 14).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Rumput.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Rumput.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Small Stone Dark (18 x 19).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Small Stone Dark (18 x 19).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Small Stone Light (18 x 19).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Small Stone Light (18 x 19).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Sungai (64 x 101).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Sungai (64 x 101).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Sungai .gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Sungai .gif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Sungai Terjun (120 x 202).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Sungai Terjun (120 x 202).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Surat (37 x 26).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Surat (37 x 26).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Ground Level 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Ground Level 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Old.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Old/Ground 1 (339 x 183)t.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Old/Ground 1 (339 x 183)t.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Old/Ground 3 (474 x 201)t.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Old/Ground 3 (474 x 201)t.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Old/Ground 4 (429 x 146)t.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Old/Ground 4 (429 x 146)t.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Redundant.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Redundant/Ground 3 (948 x 402).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Redundant/Ground 3 (948 x 402).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Redundant/Ground 4 (858 x 292).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Redundant/Ground 4 (858 x 292).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Redundant/Ground Respawn (678 x 368).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Redundant/Ground Respawn (678 x 368).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Redundant/Ground Wahana (750 x 488).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Ground/Redundant/Ground Wahana (750 x 488).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Puzzle.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Puzzle/01_01_Komputer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Puzzle/01_01_Komputer.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Puzzle/01_02_Komposer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Puzzle/01_02_Komposer.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Puzzle/01_03_Pancing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Puzzle/01_03_Pancing.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Puzzle/01_04_Piano.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Puzzle/01_04_Piano.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Data/Entities/Cloudy.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Data/Entities/Vivi.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Data/Entities/Cloudy.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Data/Entities/Edward.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Entities/Edward.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Entities/Edward.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Environment/Portal.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Environment/Portal.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Environment/Waterfall.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Environment/Waterfall.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Gameplay/Object/Clock.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Gameplay/Object/Clock.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Gameplay/Object/Clock.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Gameplay/Object/Clock.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Scenes/Mechanic/dialog.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Scenes/Mechanic/dialog.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Ambient/Pohon Sakura 1 (96 x 108).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Environment/Ambient/Pohon Sakura 1 (96 x 108).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Art/Item/Ground 1/Gunting.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Art/Item/Ground 1/Gunting.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Environment/Puzzle/Ground 1/01_Pancing.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Environment/Puzzle/Ground 1/01_Pancing.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Environment/Puzzle/Ground 1/03_Komputer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Environment/Puzzle/Ground 1/03_Komputer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Environment/Puzzle/Ground 1/04_Piano.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Environment/Puzzle/Ground 1/04_Piano.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Gameplay/Item.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Gameplay/Item/Aseprite.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Gameplay/Item/Aseprite.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Gameplay/Item/Blender.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Gameplay/Item/Blender.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Gameplay/Item/Unity.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Gameplay/Item/Unity.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Gameplay/Object.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Gameplay/Object/Clock.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Gameplay/Object/Clock.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Gameplay/Object/Tree_1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Gameplay/Object/Tree_1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Gameplay/Object/Tree_2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Gameplay/Object/Tree_2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Gameplay/Object/Tree_3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Property/Prefabs/Gameplay/Object/Tree_3.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Scenes/cloudy-world.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Scenes/cloudy-world.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Dialogue/DialogueTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Dialogue/DialogueTrigger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Component/Script/Entities/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scripts/Following.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scripts/Following.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -304,6 +185,7 @@
       <workItem from="1692895776403" duration="2015000" />
       <workItem from="1692946591083" duration="2568000" />
       <workItem from="1693158331086" duration="1262000" />
+      <workItem from="1693186109630" duration="2000000" />
     </task>
     <servers />
   </component>
